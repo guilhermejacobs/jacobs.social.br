@@ -11,7 +11,7 @@
     "https://www.omelete.com.br/ccxp/marvel-day-na-ccxp26-evento-tera-dia-inteiro-dedicado-ao-universo-de-herois"
   ],
   "pending": [],
-  "cursor": 1487934020,
+  "cursor": 1484133207,
   "scrollDone": false,
   "items": [
     {
@@ -3764,6 +3764,17 @@
       "image": "https://cdn.ome.lt/Wf5JRBtEu482qxLc57o1uROUxq8=/1200x630/smart/filters:format(webp)/extras/conteudos/Deadpool_2_capa.png",
       "section": "Filmes",
       "type": "list"
+    },
+    {
+      "id": "om-filmes-criticas-oj-made-in-america-critica",
+      "source": "omelete",
+      "title": "O.J.: Made in America | Crítica",
+      "description": "O.J.: Made in America conta história dos EUA nos últimos 50 anos, através das lentes do seu julgamento mais famoso",
+      "url": "https://www.omelete.com.br/filmes/criticas/oj-made-in-america-critica",
+      "date": "2017-02-03T14:21:22.000Z",
+      "image": "https://cdn.ome.lt/xpsEt0JNxRXM-ZVvsEd4i2EsFsY=/1200x630/smart/filters:format(webp)/extras/conteudos/OJ_Made_in_America_capa.jpg",
+      "section": "Filmes",
+      "type": "review"
     }
   ]
 }
