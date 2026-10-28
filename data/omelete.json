@@ -11,7 +11,7 @@
     "https://www.omelete.com.br/ccxp/marvel-day-na-ccxp26-evento-tera-dia-inteiro-dedicado-ao-universo-de-herois"
   ],
   "pending": [],
-  "cursor": 1484133207,
+  "cursor": 1478453134,
   "scrollDone": false,
   "items": [
     {
@@ -3775,6 +3775,17 @@
       "image": "https://cdn.ome.lt/xpsEt0JNxRXM-ZVvsEd4i2EsFsY=/1200x630/smart/filters:format(webp)/extras/conteudos/OJ_Made_in_America_capa.jpg",
       "section": "Filmes",
       "type": "review"
+    },
+    {
+      "id": "om-netflix-3-tem-um-conceito-fascinante-mas-falhas-na-execucao-prejudicam-a-serie",
+      "source": "omelete",
+      "title": "3% tem um conceito fascinante, mas falhas na execução prejudicam a série",
+      "description": "Série brasileira da Netflix, 3% tem um conceito fascinante, mas falhas na execução prejudicam a série",
+      "url": "https://www.omelete.com.br/netflix/3-tem-um-conceito-fascinante-mas-falhas-na-execucao-prejudicam-a-serie",
+      "date": "2016-11-23T20:30:24.000Z",
+      "image": "https://cdn.ome.lt/OLCKjV60jYc0XHKPjiQ9-t3aAIo=/1200x630/smart/filters:format(webp)/extras/conteudos/3pc_capa.jpg",
+      "section": "Séries e TV",
+      "type": "article"
     }
   ]
 }
