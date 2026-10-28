@@ -1,0 +1,11 @@
+{
+  "name": "jacobs-social-br",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "fetch": "node scripts/fetch.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/build.mjs --sample && npx --yes serve dist"
+  }
+}

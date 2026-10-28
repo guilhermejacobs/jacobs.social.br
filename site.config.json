@@ -1,0 +1,30 @@
+{
+  "name": "Guilherme Jacobs",
+  "url": "https://jacobs.social.br",
+  "description": "Crítico de cinema, criador de conteúdo e editor-chefe do Omelete. Reels, podcast e textos num só lugar.",
+  "bio": [
+    "Criador de conteúdo, youtuber, crítico de cinema e escritor, Guilherme Jacobs trabalha desde 2009 falando sobre os melhores filmes, séries e games do momento.",
+    "Editor-chefe do Omelete, ele tem passagens pelo JovemNerd e colaborações internacionais em sites como IGN, Kotaku e Indiewire.",
+    "Além de apresentar tanto o Palco Thunder quanto o Palco Omelete todo ano na CCXP, ele cobre regularmente o Festival de Cannes e o Oscar."
+  ],
+  "social": [
+    { "label": "Instagram", "handle": "@gjsix", "url": "https://instagram.com/gjsix" },
+    { "label": "TikTok", "handle": "@theguilhermejacobs", "url": "https://www.tiktok.com/@theguilhermejacobs" },
+    { "label": "X", "handle": "@ghostjacobs", "url": "https://x.com/ghostjacobs" },
+    { "label": "Letterboxd", "handle": "guilhermej", "url": "https://letterboxd.com/guilhermej" },
+    { "label": "Podcast", "handle": "no Spotify", "url": "https://open.spotify.com/show/7yJkAgNTUU5BqaoshKqlMR" }
+  ],
+  "instagram": {
+    "apiVersion": "v23.0",
+    "onlyReels": true
+  },
+  "podcast": {
+    "spotifyShowId": "7yJkAgNTUU5BqaoshKqlMR",
+    "rss": ""
+  },
+  "omelete": {
+    "authorUrl": "https://www.omelete.com.br/autor/guilherme-jacobs",
+    "authorMatch": "Jacobs",
+    "maxNewPerRun": 30
+  }
+}

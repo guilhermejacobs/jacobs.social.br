@@ -1,0 +1,158 @@
+{
+ "show": {
+  "name": "Podcast de exemplo"
+ },
+ "items": [
+  {
+   "id": "om-0",
+   "source": "omelete",
+   "title": "Exemplo de crítica: um filme que vai dividir opiniões",
+   "description": "Linha fina de exemplo que resume o texto publicado no Omelete.",
+   "url": "https://www.omelete.com.br",
+   "date": "2026-10-28T11:00:00Z",
+   "image": "sample/om0.jpg"
+  },
+  {
+   "id": "sp-0",
+   "source": "podcast",
+   "title": "Exemplo: as estreias da semana nos cinemas",
+   "description": "Descrição de exemplo do episódio, com os assuntos discutidos e os convidados da semana.",
+   "url": "https://open.spotify.com/show/7yJkAgNTUU5BqaoshKqlMR",
+   "date": "2026-10-28T10:00:00Z",
+   "image": "sample/cover.jpg",
+   "duration": 3600
+  },
+  {
+   "id": "ig-0",
+   "source": "instagram",
+   "title": "Exemplo de reel: 3 filmes para ver no fim de semana",
+   "url": "https://instagram.com/gjsix",
+   "date": "2026-10-28T02:00:00Z",
+   "image": "sample/ig0.jpg"
+  },
+  {
+   "id": "ig-1",
+   "source": "instagram",
+   "title": "Exemplo de reel: reagindo ao trailer",
+   "url": "https://instagram.com/gjsix",
+   "date": "2026-10-26T20:00:00Z",
+   "image": "sample/ig1.jpg"
+  },
+  {
+   "id": "om-1",
+   "source": "omelete",
+   "title": "Exemplo: o que esperar da próxima temporada",
+   "description": "Linha fina de exemplo que resume o texto publicado no Omelete.",
+   "url": "https://www.omelete.com.br",
+   "date": "2026-10-26T19:00:00Z",
+   "image": "sample/om1.jpg"
+  },
+  {
+   "id": "ig-2",
+   "source": "instagram",
+   "title": "Exemplo: direto do tapete vermelho",
+   "url": "https://instagram.com/gjsix",
+   "date": "2026-10-25T14:00:00Z",
+   "image": "sample/ig2.jpg"
+  },
+  {
+   "id": "om-2",
+   "source": "omelete",
+   "title": "Exemplo de texto longo sobre a corrida do Oscar",
+   "description": "Linha fina de exemplo que resume o texto publicado no Omelete.",
+   "url": "https://www.omelete.com.br",
+   "date": "2026-10-25T03:00:00Z",
+   "image": "sample/om2.jpg"
+  },
+  {
+   "id": "ig-3",
+   "source": "instagram",
+   "title": "Exemplo de collab com convidado",
+   "url": "https://instagram.com/gjsix",
+   "date": "2026-10-24T08:00:00Z",
+   "image": "sample/ig3.jpg"
+  },
+  {
+   "id": "om-3",
+   "source": "omelete",
+   "title": "Exemplo: os bastidores da cobertura de Cannes",
+   "description": "Linha fina de exemplo que resume o texto publicado no Omelete.",
+   "url": "https://www.omelete.com.br",
+   "date": "2026-10-23T11:00:00Z",
+   "image": "sample/om3.jpg"
+  },
+  {
+   "id": "ig-4",
+   "source": "instagram",
+   "title": "Exemplo: crítica em 60 segundos",
+   "url": "https://instagram.com/gjsix",
+   "date": "2026-10-23T02:00:00Z",
+   "image": "sample/ig4.jpg"
+  },
+  {
+   "id": "ig-5",
+   "source": "instagram",
+   "title": "Exemplo: o filme mais subestimado do ano",
+   "url": "https://instagram.com/gjsix",
+   "date": "2026-10-21T20:00:00Z",
+   "image": "sample/ig5.jpg"
+  },
+  {
+   "id": "om-4",
+   "source": "omelete",
+   "title": "Exemplo: análise do trailer mais comentado",
+   "description": "Linha fina de exemplo que resume o texto publicado no Omelete.",
+   "url": "https://www.omelete.com.br",
+   "date": "2026-10-21T19:00:00Z",
+   "image": "sample/om4.jpg"
+  },
+  {
+   "id": "sp-1",
+   "source": "podcast",
+   "title": "Exemplo: tudo sobre o novo filme da temporada",
+   "description": "Descrição de exemplo do episódio, com os assuntos discutidos e os convidados da semana.",
+   "url": "https://open.spotify.com/show/7yJkAgNTUU5BqaoshKqlMR",
+   "date": "2026-10-21T10:00:00Z",
+   "image": "sample/cover.jpg",
+   "duration": 3900
+  },
+  {
+   "id": "ig-6",
+   "source": "instagram",
+   "title": "Exemplo: bastidores da CCXP",
+   "url": "https://instagram.com/gjsix",
+   "date": "2026-10-20T14:00:00Z",
+   "image": "sample/ig6.jpg"
+  },
+  {
+   "id": "sp-2",
+   "source": "podcast",
+   "title": "Exemplo: o melhor e o pior do festival",
+   "description": "Descrição de exemplo do episódio, com os assuntos discutidos e os convidados da semana.",
+   "url": "https://open.spotify.com/show/7yJkAgNTUU5BqaoshKqlMR",
+   "date": "2026-10-14T10:00:00Z",
+   "image": "sample/cover.jpg",
+   "duration": 4200
+  },
+  {
+   "id": "sp-3",
+   "source": "podcast",
+   "title": "Exemplo: ranking de séries do ano",
+   "description": "Descrição de exemplo do episódio, com os assuntos discutidos e os convidados da semana.",
+   "url": "https://open.spotify.com/show/7yJkAgNTUU5BqaoshKqlMR",
+   "date": "2026-10-07T10:00:00Z",
+   "image": "sample/cover.jpg",
+   "duration": 4500
+  },
+  {
+   "id": "sp-4",
+   "source": "podcast",
+   "title": "Exemplo: entrevista especial",
+   "description": "Descrição de exemplo do episódio, com os assuntos discutidos e os convidados da semana.",
+   "url": "https://open.spotify.com/show/7yJkAgNTUU5BqaoshKqlMR",
+   "date": "2026-09-30T10:00:00Z",
+   "image": "sample/cover.jpg",
+   "duration": 4800
+  }
+ ]
+}
