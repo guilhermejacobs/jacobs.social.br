@@ -4,6 +4,8 @@ Site pessoal de Guilherme Jacobs. A home tem três blocos: **Podcasts**, **Socia
 
 **Guia completo de manutenção, passo a passo:** [`docs/guia-do-site.pdf`](docs/guia-do-site.pdf).
 
+**Para mudar o site com IA:** abra uma conversa nova no Claude Code (ou em outra ferramenta conectada ao GitHub) com este repositório. O `CLAUDE.md` (copiado em `AGENTS.md` e `GEMINI.md`) explica o projeto para a IA. Veja o capítulo 7 do guia.
+
 O site é estático e não tem dependências: são só scripts em Node. Ele roda inteiro no GitHub:
 
 - **De hora em hora**, o GitHub Actions busca conteúdo novo (`scripts/fetch.mjs`), salva em `data/` e, se houver novidade, gera e publica o site no GitHub Pages.
