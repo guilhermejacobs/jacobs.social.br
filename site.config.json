@@ -51,5 +51,6 @@
     "authorUrl": "https://www.indiewire.com/author/guilherme-jacobs/",
     "authorMatch": "Jacobs",
     "maxNewPerRun": 30
-  }
+  },
+  "hide": []
 }

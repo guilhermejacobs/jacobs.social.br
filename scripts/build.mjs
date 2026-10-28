@@ -38,7 +38,9 @@ if (sample) {
   const extra = manual.items.map((i) => ({ id: `manual-${i.url}`, ...i, date: new Date(i.date).toISOString() }));
   items = mergeItems([...ig.items, ...pod.items, ...om.items, ...iw.items], extra);
 }
-items = items.filter((i) => GROUPS[groupOf(i)] && i.url && i.date);
+// "hide" in site.config.json lists URLs to keep off the site even if a fetch brings them back.
+const hidden = new Set(config.hide ?? []);
+items = items.filter((i) => GROUPS[groupOf(i)] && i.url && i.date && !hidden.has(i.url));
 const byGroup = (g) => items.filter((i) => groupOf(i) === g);
 
 // ---------- helpers ----------

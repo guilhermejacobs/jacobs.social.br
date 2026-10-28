@@ -2,6 +2,8 @@
 
 Site pessoal de Guilherme Jacobs. A home tem três blocos: **Podcasts**, **Social** (Reels do Instagram e, no futuro, TikTok) e **No Omelete e além** (textos no Omelete, IndieWire etc.). Tem ainda uma página de arquivo com filtros e uma página "Sobre". O site abre no modo noturno e tem um botão para trocar para o modo claro.
 
+**Guia completo de manutenção, passo a passo:** [`docs/guia-do-site.pdf`](docs/guia-do-site.pdf).
+
 O site é estático e não tem dependências: são só scripts em Node. Ele roda inteiro no GitHub:
 
 - **De hora em hora**, o GitHub Actions busca conteúdo novo (`scripts/fetch.mjs`), salva em `data/` e, se houver novidade, gera e publica o site no GitHub Pages.
@@ -15,6 +17,7 @@ O site é estático e não tem dependências: são só scripts em Node. Ele roda
 | Foto | `src/assets/guilherme-jacobs.jpg` |
 | Cores e fontes | `src/assets/styles.css` (variáveis no topo) |
 | Adicionar um conteúdo à mão (ex.: um collab que não apareceu) | `data/manual.json` |
+| Esconder um conteúdo que entrou errado (cole a URL em `"hide"`) | `site.config.json` |
 
 Dá para editar tudo pelo próprio site do GitHub (ícone de lápis). Ao salvar, o site é republicado em 1–2 minutos.
 
