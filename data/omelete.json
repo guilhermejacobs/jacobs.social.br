@@ -1,46 +1,19 @@
 {
-  "ignored": [],
+  "ignored": [
+    "https://www.omelete.com.br/ccxp/harry-potter-e-a-pedra-filosofal-serie-da-hbo-e-confirmada-na-ccxp26",
+    "https://www.omelete.com.br/filmes/duna-parte-3-promete-conclusao-epica-com-trailer-final-assista-aqui",
+    "https://www.omelete.com.br/series-tv/sylvester-stallone-e-samuel-l-jackson-sao-confirmados-na-ccxp26",
+    "https://www.omelete.com.br/series-tv/harry-potter-da-hbo-anuncia-atores-que-viverao-tiago-e-lilian-potter-confira",
+    "https://www.omelete.com.br/filmes/tudo-pode-ser-visto-documentario-de-nathan-fielder-sobre-elizabeth-holmes-ganha-poster-brasileiro",
+    "https://www.omelete.com.br/series-tv/globoplay-anuncia-reajustes-no-preco-e-beneficios-dos-planos-veja-novos-valores",
+    "https://www.omelete.com.br/filmes/tudo-pode-ser-visto-e-confirmado-no-janela-internacional-de-cinema-em-recife-2026",
+    "https://www.omelete.com.br/filmes/you-can-see-everything-data-titulo-brasil-mostra-sp",
+    "https://www.omelete.com.br/ccxp/marvel-day-na-ccxp26-evento-tera-dia-inteiro-dedicado-ao-universo-de-herois"
+  ],
+  "pending": [],
+  "cursor": 1787744642,
+  "scrollDone": false,
   "items": [
-    {
-      "id": "om-ccxp-harry-potter-e-a-pedra-filosofal-serie-da-hbo-e-confirmada-na-ccxp26",
-      "source": "omelete",
-      "title": "Harry Potter e a Pedra Filosofal, série da HBO, é confirmada na CCXP26",
-      "description": "Harry Potter e a Pedra Filosofal, série da HBO, é confirmada na CCXP26",
-      "url": "https://www.omelete.com.br/ccxp/harry-potter-e-a-pedra-filosofal-serie-da-hbo-e-confirmada-na-ccxp26",
-      "date": "2026-10-28T15:01:32.000Z",
-      "image": "https://cdn.ome.lt/kz_4rI_LZoaJtO3YEHJfpyRuFAE=/1200x630/smart/filters:format(webp)/extras/conteudos/image_HTT5Ojw.png",
-      "section": "CCXP"
-    },
-    {
-      "id": "om-filmes-duna-parte-3-promete-conclusao-epica-com-trailer-final-assista-aqui",
-      "source": "omelete",
-      "title": "Duna: Parte 3 promete conclusão épica com trailer final; assista aqui",
-      "description": "Duna: Parte 3 promete conclusão épica com trailer final; assista aqui",
-      "url": "https://www.omelete.com.br/filmes/duna-parte-3-promete-conclusao-epica-com-trailer-final-assista-aqui",
-      "date": "2026-10-27T16:02:07.000Z",
-      "image": "https://cdn.ome.lt/PIUj8_yd5mdijhA_vFz3CH0cEWQ=/1200x630/smart/filters:format(webp)/extras/conteudos/image_GzvEcsh.png",
-      "section": "Filmes"
-    },
-    {
-      "id": "om-series-tv-sylvester-stallone-e-samuel-l-jackson-sao-confirmados-na-ccxp26",
-      "source": "omelete",
-      "title": "Sylvester Stallone e Samuel L. Jackson são confirmados na CCXP26",
-      "description": "Sylvester Stallone e Samuel L. Jackson são confirmados na CCXP26",
-      "url": "https://www.omelete.com.br/series-tv/sylvester-stallone-e-samuel-l-jackson-sao-confirmados-na-ccxp26",
-      "date": "2026-10-27T14:04:33.000Z",
-      "image": "https://cdn.ome.lt/fk6rSWIty-YUwx-MT4GYd6XdKUI=/1200x630/smart/filters:format(webp)/extras/conteudos/Captura_de_Tela_2026-10-27_at_08.41.18.png",
-      "section": "Séries e TV"
-    },
-    {
-      "id": "om-series-tv-harry-potter-da-hbo-anuncia-atores-que-viverao-tiago-e-lilian-potter-confira",
-      "source": "omelete",
-      "title": "Harry Potter da HBO anuncia atores que viverão Tiago e Lílian Potter, confira",
-      "description": "Harry Potter da HBO anuncia atores que viverão Tiago e Lílian Potter, confira",
-      "url": "https://www.omelete.com.br/series-tv/harry-potter-da-hbo-anuncia-atores-que-viverao-tiago-e-lilian-potter-confira",
-      "date": "2026-10-27T12:08:36.000Z",
-      "image": "https://cdn.ome.lt/th-SUkdDUGQ91VP4mELsuH4QIRM=/1200x630/smart/filters:format(webp)/extras/conteudos/image_tJa6jYg.png",
-      "section": "Séries e TV"
-    },
     {
       "id": "om-filmes-criticas-naza-usa-cinema-para-construir-o-contexto-assustador-dos-ataques-a-gaza",
       "source": "omelete",
@@ -49,47 +22,8 @@
       "url": "https://www.omelete.com.br/filmes/criticas/naza-usa-cinema-para-construir-o-contexto-assustador-dos-ataques-a-gaza",
       "date": "2026-10-26T19:47:20.000Z",
       "image": "https://cdn.ome.lt/TQcmAEBsI_M9OzhRpZvs44bAD7c=/1200x630/smart/filters:format(webp)/extras/conteudos/image_TvoBRaT.png",
-      "section": "Filmes"
-    },
-    {
-      "id": "om-filmes-tudo-pode-ser-visto-documentario-de-nathan-fielder-sobre-elizabeth-holmes-ganha-poster-brasileiro",
-      "source": "omelete",
-      "title": "Tudo Pode Ser Visto | Documentário de Nathan Fielder sobre Elizabeth Holmes ganha pôster brasileiro",
-      "description": "Tudo Pode Ser Visto | Documentário de Nathan Fielder sobre Elizabeth Holmes ganha pôster brasileiro",
-      "url": "https://www.omelete.com.br/filmes/tudo-pode-ser-visto-documentario-de-nathan-fielder-sobre-elizabeth-holmes-ganha-poster-brasileiro",
-      "date": "2026-10-26T18:18:44.000Z",
-      "image": "https://cdn.ome.lt/cxNcpky06FWfVMJGAbeRET7bv9U=/1200x630/smart/filters:format(webp)/extras/conteudos/image_UXzZ66t.png",
-      "section": "Filmes"
-    },
-    {
-      "id": "om-series-tv-globoplay-anuncia-reajustes-no-preco-e-beneficios-dos-planos-veja-novos-valores",
-      "source": "omelete",
-      "title": "Globoplay anuncia reajustes no preço e benefícios dos planos, veja novos valores",
-      "description": "Globoplay anuncia reajustes no preço e benefícios dos planos, veja novos valores",
-      "url": "https://www.omelete.com.br/series-tv/globoplay-anuncia-reajustes-no-preco-e-beneficios-dos-planos-veja-novos-valores",
-      "date": "2026-10-26T12:00:00.000Z",
-      "image": "https://cdn.ome.lt/D2-AFiYDF6FCqHlIYNQqftnTl_4=/1200x630/smart/filters:format(webp)/extras/conteudos/image_YlCm5jR.png",
-      "section": "Séries e TV"
-    },
-    {
-      "id": "om-filmes-tudo-pode-ser-visto-e-confirmado-no-janela-internacional-de-cinema-em-recife-2026",
-      "source": "omelete",
-      "title": "Tudo Pode Ser Visto é confirmado no Janela Internacional de Cinema em Recife 2026",
-      "description": "Tudo Pode Ser Visto é confirmado no Janela Internacional de Cinema em Recife 2026",
-      "url": "https://www.omelete.com.br/filmes/tudo-pode-ser-visto-e-confirmado-no-janela-internacional-de-cinema-em-recife-2026",
-      "date": "2026-10-23T16:04:28.000Z",
-      "image": "https://cdn.ome.lt/ILU-gJ6eUPouBM45neUmLOjl6Vk=/1200x630/smart/filters:format(webp)/extras/conteudos/image_uA9xkOO.png",
-      "section": "Filmes"
-    },
-    {
-      "id": "om-filmes-you-can-see-everything-data-titulo-brasil-mostra-sp",
-      "source": "omelete",
-      "title": "Tudo Pode Ser Visto | Documentário de Nathan Fielder ganha data no Brasil ainda em 2026",
-      "description": "You Can See Everything | Documentário de Nathan Fielder ganha data e título no Brasil",
-      "url": "https://www.omelete.com.br/filmes/you-can-see-everything-data-titulo-brasil-mostra-sp",
-      "date": "2026-10-23T14:00:00.000Z",
-      "image": "https://cdn.ome.lt/Vc-maJqVItSPayu1qtJN3tZY-uU=/1200x630/smart/filters:format(webp)/extras/conteudos/Captura_de_Tela_2026-10-20_at_09.19.48.png",
-      "section": "Filmes"
+      "section": "Filmes",
+      "type": "review"
     },
     {
       "id": "om-filmes-criticas-everytime-traca-o-efeito-do-luto-na-era-digital-num-dos-melhores-filmes-de-2026",
@@ -99,17 +33,8 @@
       "url": "https://www.omelete.com.br/filmes/criticas/everytime-traca-o-efeito-do-luto-na-era-digital-num-dos-melhores-filmes-de-2026",
       "date": "2026-10-23T13:40:16.000Z",
       "image": "https://cdn.ome.lt/tIAsMZdwbpDXgBQIRYCSKsZ_xkY=/1200x630/smart/filters:format(webp)/extras/conteudos/image_Ru4bAHX.png",
-      "section": "Filmes"
-    },
-    {
-      "id": "om-ccxp-marvel-day-na-ccxp26-evento-tera-dia-inteiro-dedicado-ao-universo-de-herois",
-      "source": "omelete",
-      "title": "Marvel Day na CCXP26: Evento terá dia inteiro dedicado ao universo de heróis",
-      "description": "Marvel Day na CCXP26: Evento terá dia inteiro dedicado ao universo de heróis",
-      "url": "https://www.omelete.com.br/ccxp/marvel-day-na-ccxp26-evento-tera-dia-inteiro-dedicado-ao-universo-de-herois",
-      "date": "2026-10-22T15:00:47.000Z",
-      "image": "https://cdn.ome.lt/X2flp2Mzp0_qTty5r53pbhUHQ8U=/1200x630/smart/filters:format(webp)/extras/conteudos/marvel_day_ccxp.webp",
-      "section": "CCXP"
+      "section": "Filmes",
+      "type": "review"
     },
     {
       "id": "om-filmes-criticas-cara-de-barro-aproveita-o-body-horror-para-drama-nojento-vilao-do-batman",
@@ -119,7 +44,8 @@
       "url": "https://www.omelete.com.br/filmes/criticas/cara-de-barro-aproveita-o-body-horror-para-drama-nojento-vilao-do-batman",
       "date": "2026-10-21T19:00:00.000Z",
       "image": "https://cdn.ome.lt/PAxxxzSndKoROH5BDisaW4k1NbM=/1200x630/smart/filters:format(webp)/extras/conteudos/cara-de-barro.webp",
-      "section": "Filmes"
+      "section": "Filmes",
+      "type": "review"
     },
     {
       "id": "om-filmes-criticas-primetime-usa-robert-pattinson-como-chris-hansen-para-encarnar-a-estranheza-do-true-crime",
@@ -129,7 +55,8 @@
       "url": "https://www.omelete.com.br/filmes/criticas/primetime-usa-robert-pattinson-como-chris-hansen-para-encarnar-a-estranheza-do-true-crime",
       "date": "2026-10-21T17:29:44.000Z",
       "image": "https://cdn.ome.lt/_zQZ064xxKe2pineb8Edv8JJQV4=/1200x630/smart/filters:format(webp)/extras/conteudos/image_sXuPQ8a.png",
-      "section": "Filmes"
+      "section": "Filmes",
+      "type": "review"
     },
     {
       "id": "om-games-criticas-castlevania-belmonts-curse-finalmente-traz-a-franquia-para-a-era-de-ouro-moderna-dos-metroidvanias-review",
@@ -139,7 +66,8 @@
       "url": "https://www.omelete.com.br/games/criticas/castlevania-belmonts-curse-finalmente-traz-a-franquia-para-a-era-de-ouro-moderna-dos-metroidvanias-review",
       "date": "2026-10-16T18:17:57.000Z",
       "image": "https://cdn.ome.lt/zzlyOyJFyh1M7k6a7_UM1uVMh0M=/1200x630/smart/filters:format(webp)/extras/conteudos/image_XvF0lSc.png",
-      "section": "Games"
+      "section": "Games",
+      "type": "review"
     },
     {
       "id": "om-filmes-criticas-o-sentido-da-vida-all-of-a-sudden-ryusuke-hamaguchi",
@@ -149,7 +77,228 @@
       "url": "https://www.omelete.com.br/filmes/criticas/o-sentido-da-vida-all-of-a-sudden-ryusuke-hamaguchi",
       "date": "2026-10-16T13:35:33.000Z",
       "image": "https://cdn.ome.lt/PDn3PvMSDmStQ2KaVgQvzDWdWmw=/1200x630/smart/filters:format(webp)/extras/conteudos/all-of-a-sudden-filme-critica.webp",
-      "section": "Filmes"
+      "section": "Filmes",
+      "type": "review"
+    },
+    {
+      "id": "om-filmes-netflix-melhores-filmes-para-ver-agora",
+      "source": "omelete",
+      "title": "Top 10 Melhores Filmes Para Você Ver na Netflix Agora (Outubro 2026)",
+      "description": "Top 10 Melhores Filmes Para Você Ver na Netflix Agora (Outubro 2026)",
+      "url": "https://www.omelete.com.br/filmes/netflix-melhores-filmes-para-ver-agora",
+      "date": "2026-10-16T10:50:23.000Z",
+      "image": "https://cdn.ome.lt/Rq7lEXBVZGwwN7iRjxNuu11CrM8=/1200x630/smart/filters:format(webp)/extras/conteudos/melhores-filmes-netflix.jpg",
+      "section": "Filmes",
+      "type": "list"
+    },
+    {
+      "id": "om-series-tv-netflix-melhores-series-para-ver-agora",
+      "source": "omelete",
+      "title": "Top 10 Melhores Séries Para Você Ver na Netflix Agora (Outubro 2026)",
+      "description": "Top 10 Melhores Séries Para Você Ver na Netflix Agora (Outubro 2026)",
+      "url": "https://www.omelete.com.br/series-tv/netflix-melhores-series-para-ver-agora",
+      "date": "2026-10-16T10:48:17.000Z",
+      "image": "https://cdn.ome.lt/5fyCDKEABWtxibrCMEDdddp2qYE=/1200x630/smart/filters:format(webp)/extras/conteudos/melhores-series-netflix_1.jpg",
+      "section": "Séries e TV",
+      "type": "list"
+    },
+    {
+      "id": "om-filmes-zodiac-explicado-o-que-e-a-nova-serie-misteriosa-da-marvel",
+      "source": "omelete",
+      "title": "Zodiac Explicado: O que é a nova série misteriosa da Marvel?",
+      "description": "Série de espionagem foi anunciada pelo estúdio, e os gibis nos dão pistas do que esperar",
+      "url": "https://www.omelete.com.br/filmes/zodiac-explicado-o-que-e-a-nova-serie-misteriosa-da-marvel",
+      "date": "2026-10-09T13:57:02.000Z",
+      "image": "https://cdn.ome.lt/MXpGREXzS9iZQMR-SRmU6LOH-QI=/1200x630/smart/filters:format(webp)/extras/conteudos/zodiac.webp",
+      "section": "Filmes",
+      "type": "article"
+    },
+    {
+      "id": "om-korea-criticas-hope-filme-coreano-critica",
+      "source": "omelete",
+      "title": "Hope é um épico de ação e monstros audacioso e imperfeito",
+      "description": "Hope é um épico de ação e monstros audacioso e imperfeito - Crítica, Cannes",
+      "url": "https://www.omelete.com.br/korea/criticas/hope-filme-coreano-critica",
+      "date": "2026-10-09T11:07:30.000Z",
+      "image": "https://cdn.ome.lt/Lghy4lntTP6rVx2YnQzuM_-vC2c=/1200x630/smart/filters:format(webp)/extras/conteudos/hope_LNzsfEK.png",
+      "section": "Korea",
+      "type": "review"
+    },
+    {
+      "id": "om-filmes-hope-primeiro-impacto-vai-ter-continuacao-final-explicado",
+      "source": "omelete",
+      "title": "Hope: Primeiro Impacto vai ter continuação? Final Explicado",
+      "description": "Hope: Primeiro Impacto vai ter continuação? Final Explicado",
+      "url": "https://www.omelete.com.br/filmes/hope-primeiro-impacto-vai-ter-continuacao-final-explicado",
+      "date": "2026-10-09T10:57:10.000Z",
+      "image": "https://cdn.ome.lt/HTbkbhAi_pwsqZBSwPSI7qqWOgg=/1200x630/smart/filters:format(webp)/extras/conteudos/hope_fF2SioE.webp",
+      "section": "Filmes",
+      "type": "article"
+    },
+    {
+      "id": "om-series-tv-lanternas-encerra-sua-otima-1a-temporada-com-um-episodio-que-deixa-a-desejar",
+      "source": "omelete",
+      "title": "Lanternas encerra sua ótima 1ª temporada com um episódio que deixa a desejar",
+      "description": "Lanternas encerra sua ótima 1ª temporada com um episódio que deixa a desejar",
+      "url": "https://www.omelete.com.br/series-tv/lanternas-encerra-sua-otima-1a-temporada-com-um-episodio-que-deixa-a-desejar",
+      "date": "2026-10-05T12:13:48.000Z",
+      "image": "https://cdn.ome.lt/GB9ltVT0kb3QX_Ec7gScSTk9gCc=/1200x630/smart/filters:format(webp)/extras/conteudos/lanternas_0IxMga3.webp",
+      "section": "Séries e TV",
+      "type": "article"
+    },
+    {
+      "id": "om-filmes-por-que-resident-evil-representa-um-novo-tipo-de-adaptacao-de-games-para-o-cinema",
+      "source": "omelete",
+      "title": "Por que Resident Evil representa um novo tipo de adaptação de games para o cinema",
+      "description": "Por que Resident Evil representa um novo tipo de adaptação de games para o cinema",
+      "url": "https://www.omelete.com.br/filmes/por-que-resident-evil-representa-um-novo-tipo-de-adaptacao-de-games-para-o-cinema",
+      "date": "2026-10-01T14:50:22.000Z",
+      "image": "https://cdn.ome.lt/xruIdLCsILK240Y8g9BS2i39eGk=/1200x630/smart/filters:format(webp)/extras/conteudos/Resident_Evil_Adaptation.webp",
+      "section": "Filmes",
+      "type": "article"
+    },
+    {
+      "id": "om-games-ace-combat-8-final-explicado-entenda-a-ligacao-do-jogo-com-ace-combat-3",
+      "source": "omelete",
+      "title": "Ace Combat 8 Final Explicado: Entenda a Ligação do Jogo com Ace Combat 3",
+      "description": "Ace Combat 8 Final Explicado: Entenda a Ligação do Jogo com Ace Combat 3",
+      "url": "https://www.omelete.com.br/games/ace-combat-8-final-explicado-entenda-a-ligacao-do-jogo-com-ace-combat-3",
+      "date": "2026-09-29T18:26:59.000Z",
+      "image": "https://cdn.ome.lt/_ZZnf_ogsd2VcthiBTXcT2ClynQ=/1200x630/smart/filters:format(webp)/extras/conteudos/Ace_Combat_8_and_3.webp",
+      "section": "Games",
+      "type": "article"
+    },
+    {
+      "id": "om-series-tv-lanternas-foca-em-hal-jordan-pais-e-filhos-e-suicidio-no-excelente-penultimo-episodio",
+      "source": "omelete",
+      "title": "Lanternas foca em Hal Jordan, pais e filhos e suicídio no excelente penúltimo episódio",
+      "description": "Lanternas foca em Hal Jordan, pais e filhos e suicídio no excelente penúltimo episódio",
+      "url": "https://www.omelete.com.br/series-tv/lanternas-foca-em-hal-jordan-pais-e-filhos-e-suicidio-no-excelente-penultimo-episodio",
+      "date": "2026-09-28T13:09:01.000Z",
+      "image": "https://cdn.ome.lt/cYf8Cl161wJDwOfJgl6A39gyP6k=/1200x630/smart/filters:format(webp)/extras/conteudos/lanternas_episodio_7.jpg",
+      "section": "Séries e TV",
+      "type": "article"
+    },
+    {
+      "id": "om-games-criticas-ace-combat-8-wings-of-theve-eleva-a-franquia-a-novos-ares-review",
+      "source": "omelete",
+      "title": "Ace Combat 8: Wings of Theve eleva a franquia a novos ares (Review)",
+      "description": "Ace Combat 8: Wings of Theve eleva a franquia a novos ares (Review)",
+      "url": "https://www.omelete.com.br/games/criticas/ace-combat-8-wings-of-theve-eleva-a-franquia-a-novos-ares-review",
+      "date": "2026-09-25T14:00:00.000Z",
+      "image": "https://cdn.ome.lt/RkdDQMmRz8z4cFJPEwunEgBErsY=/1200x630/smart/filters:format(webp)/extras/conteudos/ace_combat_8.jpg",
+      "section": "Games",
+      "type": "review"
+    },
+    {
+      "id": "om-series-tv-lanternas-revela-carol-ferris-em-novo-episodio-saiba-tudo",
+      "source": "omelete",
+      "title": "Lanternas revela Carol Ferris em novo episódio, saiba tudo",
+      "description": "Lanternas revela Carol Ferris em novo episódio, saiba tudo",
+      "url": "https://www.omelete.com.br/series-tv/lanternas-revela-carol-ferris-em-novo-episodio-saiba-tudo",
+      "date": "2026-09-21T14:46:43.000Z",
+      "image": "https://cdn.ome.lt/Mt024rgHd6aReIwAacq1zMO-09A=/1200x630/smart/filters:format(webp)/extras/conteudos/Carol_Ferris_Lanternas.webp",
+      "section": "Séries e TV",
+      "type": "article"
+    },
+    {
+      "id": "om-series-tv-lanternas-confirma-status-do-batman-do-dcu-em-novo-episodio-saiba-tudo",
+      "source": "omelete",
+      "title": "Lanternas confirma status do Batman do DCU em novo episódio, saiba tudo",
+      "description": "Lanternas confirma status do Batman do DCU em novo episódio, saiba tudo",
+      "url": "https://www.omelete.com.br/series-tv/lanternas-confirma-status-do-batman-do-dcu-em-novo-episodio-saiba-tudo",
+      "date": "2026-09-21T14:32:40.000Z",
+      "image": "https://cdn.ome.lt/iK2yYpnjo32sopNKHsModNE_bP4=/1200x630/smart/filters:format(webp)/extras/conteudos/Batman_Lanterns.webp",
+      "section": "Séries e TV",
+      "type": "article"
+    },
+    {
+      "id": "om-filmes-criticas-tony-faz-cinebiografia-apaixonada-e-apaixonante-de-anthony-bourdain",
+      "source": "omelete",
+      "title": "Tony faz cinebiografia apaixonada e apaixonante de Anthony Bourdain",
+      "description": "Crítica: Tony faz cinebiografia apaixonada e apaixonante de Anthony Bourdain",
+      "url": "https://www.omelete.com.br/filmes/criticas/tony-faz-cinebiografia-apaixonada-e-apaixonante-de-anthony-bourdain",
+      "date": "2026-09-18T18:17:58.000Z",
+      "image": "https://cdn.ome.lt/7b-c2W7EC_gYAvLqFOAxNbICL8o=/1200x630/smart/filters:format(webp)/extras/conteudos/tony_uzK6hmT.webp",
+      "section": "Filmes",
+      "type": "review"
+    },
+    {
+      "id": "om-series-tv-lanternas-ep-4-explicado",
+      "source": "omelete",
+      "title": "Lanternas coloca o relacionamento de Hal e John em xeque no ótimo quarto episódio",
+      "description": "Relacionamento de Hal e John é levado ao limite em capítulo repleto de mentiras e revelações",
+      "url": "https://www.omelete.com.br/series-tv/lanternas-ep-4-explicado",
+      "date": "2026-09-07T02:00:00.000Z",
+      "image": "https://cdn.ome.lt/94YEOPJaEwsWhdjr3aBhzUf1NcE=/1200x630/smart/filters:format(webp)/extras/conteudos/cqhiHLc_s7ItOVq.png",
+      "section": "Séries e TV",
+      "type": "article"
+    },
+    {
+      "id": "om-games-criticas-onimusha-way-sword-review-critica",
+      "source": "omelete",
+      "title": "Onimusha: Way of the Sword | Vale a pena jogar o game da Capcom? Veja o review",
+      "description": "Novo jogo da franquia torna a experiência de quem o testa tão tortuosa quanto a do personagem",
+      "url": "https://www.omelete.com.br/games/criticas/onimusha-way-sword-review-critica",
+      "date": "2026-09-04T19:48:47.000Z",
+      "image": "https://cdn.ome.lt/iBLg_XgPks6_LXoZkIuncKDg7Zs=/1200x630/smart/filters:format(webp)/extras/conteudos/image_-_2026-09-04T170624.859.png",
+      "section": "Games",
+      "type": "review"
+    },
+    {
+      "id": "om-series-tv-lanternas-guardioes-do-universo-explicado-laura-linney",
+      "source": "omelete",
+      "title": "Lanternas | Quem são os Guardiões do Universo? Conheça os chefes dos Lanternas",
+      "description": "Lanternas | Quem são os Guardiões do Universo? Conheça a personagem de Laura Linney",
+      "url": "https://www.omelete.com.br/series-tv/lanternas-guardioes-do-universo-explicado-laura-linney",
+      "date": "2026-08-31T02:00:00.000Z",
+      "image": "https://cdn.ome.lt/6EfdS15fQ1hdkfQIdEwJjUYEMms=/1200x630/smart/filters:format(webp)/extras/conteudos/Lanternas_Guardioes_do_Universo.webp",
+      "section": "Séries e TV",
+      "type": "article"
+    },
+    {
+      "id": "om-series-tv-lanternas-episodio-3-critica-resumo-explicado",
+      "source": "omelete",
+      "title": "Lanternas foca em John Stewart no terceiro (excelente) episódio da série",
+      "description": "Lanternas | Resumo, crítica e explicado do Episódio 3",
+      "url": "https://www.omelete.com.br/series-tv/lanternas-episodio-3-critica-resumo-explicado",
+      "date": "2026-08-31T01:55:00.000Z",
+      "image": "https://cdn.ome.lt/U1Hhl_KWlboXGdlYXYhshPCU5Hg=/1200x630/smart/filters:format(webp)/extras/conteudos/Lanternas_Episode_3.webp",
+      "section": "Séries e TV",
+      "type": "article"
+    },
+    {
+      "id": "om-filmes-vicentina-pede-desculpas-diretor-de-marte-um-gabriel-martins-fala-sobre-seu-novo-filme",
+      "source": "omelete",
+      "title": "Vicentina Pede Desculpas | Diretor de Marte Um, Gabriel Martins fala sobre seu novo filme",
+      "description": "Vicentina Pede Desculpas | Diretor de Marte Um, Gabriel Martins fala sobre seu novo filme",
+      "url": "https://www.omelete.com.br/filmes/vicentina-pede-desculpas-diretor-de-marte-um-gabriel-martins-fala-sobre-seu-novo-filme",
+      "date": "2026-08-27T17:00:00.000Z",
+      "image": "https://cdn.ome.lt/Yq00kOcEr5C0t6K2DJTjeo9x0eQ=/1200x630/smart/filters:format(webp)/extras/conteudos/vicentina-pede-desculpas-gabriel.webp",
+      "section": "Filmes",
+      "type": "article"
+    },
+    {
+      "id": "om-games-gta-6-como-assistir-ao-trailer-de-gameplay-na-netflix-e-no-youtube",
+      "source": "omelete",
+      "title": "GTA 6 | Horário, duração e como assistir trailer de gameplay na Netflix e YouTube",
+      "description": "GTA 6 | Como assistir ao trailer de gameplay ao vivo",
+      "url": "https://www.omelete.com.br/games/gta-6-como-assistir-ao-trailer-de-gameplay-na-netflix-e-no-youtube",
+      "date": "2026-08-27T13:29:15.000Z",
+      "image": "https://cdn.ome.lt/dh-V83aQcgiSzPW2kGz-1NJRLkA=/1200x630/smart/filters:format(webp)/extras/conteudos/gta-6-gameplay.webp",
+      "section": "Games",
+      "type": "article"
+    },
+    {
+      "id": "om-filmes-disney-plus-beneficios-brasil-mcdonalds-renner-mercado-livre",
+      "source": "omelete",
+      "title": "Disney+ amplia programa de benefícios com McDonalds, Renner e Mercado Livre visando retenção de usuários",
+      "description": "Disney+ amplia programa de benefícios com McDonalds, Renner e Mercado Livre visando retenção de usuários",
+      "url": "https://www.omelete.com.br/filmes/disney-plus-beneficios-brasil-mcdonalds-renner-mercado-livre",
+      "date": "2026-08-26T13:00:00.000Z",
+      "image": "https://cdn.ome.lt/BBH0LqT7fA8BHkPr5IMmnpQb2c0=/1200x630/smart/filters:format(webp)/extras/conteudos/disney_plus_Qwj632x.jpg",
+      "section": "Filmes",
+      "type": "article"
     }
   ]
 }
