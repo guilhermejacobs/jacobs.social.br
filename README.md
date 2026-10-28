@@ -88,6 +88,9 @@ Escolha **uma** das opções:
 
 Confira se `omelete.authorUrl` no `site.config.json` aponta para a sua página de autor. O script lê os links dessa página e só guarda as matérias cujo autor contém "Jacobs" (`omelete.authorMatch`).
 
+- **Tipos de matéria:** `omelete.includeTypes` define o que entra. Os valores possíveis são `review` (crítica), `article` (artigo), `list` (lista) e `news` (notícia). O padrão é tudo, menos notícias.
+- **Histórico:** com `omelete.scroll` ligado, o robô também percorre o "Ver Mais" da página de autor, `scrollPagesPerRun` páginas por execução, até chegar à primeira matéria. Quem já não entra pelo tipo nem chega a ser baixado. O andamento fica em `data/omelete.json` (`cursor`, `scrollDone`, `pending`). Para recomeçar do zero, apague esses três campos.
+
 ### 5. IndieWire
 
 Não precisa configurar nada. O site lê o feed RSS da sua página de autor (`indiewire.authorUrl`), que só lista textos seus. Se o feed falhar, ele lê a página de autor, do mesmo jeito que faz com o Omelete. Na primeira execução, ele volta pelas páginas mais antigas do feed para montar o arquivo.

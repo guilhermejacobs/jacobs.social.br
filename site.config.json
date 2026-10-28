@@ -45,7 +45,14 @@
   "omelete": {
     "authorUrl": "https://www.omelete.com.br/autores/guilherme-j-jacobs",
     "authorMatch": "Jacobs",
-    "maxNewPerRun": 30
+    "includeTypes": [
+      "review",
+      "article",
+      "list"
+    ],
+    "scroll": true,
+    "scrollPagesPerRun": 10,
+    "maxNewPerRun": 40
   },
   "indiewire": {
     "authorUrl": "https://www.indiewire.com/author/guilherme-jacobs/",

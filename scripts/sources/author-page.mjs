@@ -1,27 +1,67 @@
 import { get, readJson, writeJson, mergeItems, toIso, truncate, decodeEntities } from '../lib.mjs';
 
-const SKIP = /^\/(autor|autores|tag|tags|busca|search|assine|login|cadastro|newsletter|sobre|contato|termos|politica|privacidade|_next|api|static|assets|images|feed)(\/|$)/i;
+const SKIP = /^\/(autor|autores|tag|tags|busca|search|assine|login|cadastro|newsletter|sobre|contato|termos|politica|privacidade|_next|_scroll|api|static|assets|images|feed)(\/|$)/i;
 
 // For sites without a feed: collect article links from the author page, then read each
-// new article's metadata (title, image, date, author). Only articles whose author matches
+// new article's metadata (title, image, date, author, type). Only articles whose author matches
 // `authorMatch` are kept, which filters out "most read" boxes and other people's articles.
+// With `includeTypes`, only those content types are kept (Omelete: review, article, list, news).
+// With `scroll`, older articles are also collected through Omelete's "Ver Mais" endpoint,
+// a few pages per run, until the whole history has been read.
 export async function fetchAuthorPage(config, { source, prefix }) {
   if (!config.authorUrl) return `pulado: defina "${source}.authorUrl" no site.config.json`;
   const file = `data/${source}.json`;
   const stored = await readJson(file, { ignored: [], items: [] });
-  const seen = new Set([...stored.items.map((i) => i.url), ...stored.ignored]);
+  stored.pending ??= [];
+  const wanted = (type) => !config.includeTypes || config.includeTypes.includes(type);
+  const seen = new Set([...stored.items.map((i) => i.url), ...stored.ignored, ...stored.pending]);
 
+  // Newest first: links on the author page go to the front of the queue.
   const html = await (await get(config.authorUrl)).text();
-  const links = extractArticleLinks(html, config.authorUrl).filter((u) => !seen.has(u));
+  const fresh = extractArticleLinks(html, config.authorUrl).filter((u) => !seen.has(u));
+  fresh.forEach((u) => seen.add(u));
+  // Items stored before types were recorded get read again once to learn their type.
+  const untyped = config.includeTypes ? stored.items.filter((i) => !i.type).map((i) => i.url) : [];
+  const queue = [...fresh, ...untyped.filter((u) => !stored.pending.includes(u)), ...stored.pending];
+
+  let scrolled = 0;
+  if (config.scroll && !stored.scrollDone) {
+    let cursor = stored.cursor ?? html.match(/lastNewsTimestamp\s*=\s*'(\d+)'/)?.[1];
+    const { origin, pathname } = new URL(config.authorUrl);
+    for (let page = 0; cursor && page < (config.scrollPagesPerRun ?? 10); page++) {
+      const entries = await (await get(`${origin}/_scroll${pathname}?next=${cursor}`)).json();
+      if (!Array.isArray(entries)) throw new Error('resposta inesperada do "Ver Mais"');
+      if (!entries.length) {
+        stored.scrollDone = true;
+        break;
+      }
+      for (const entry of entries) {
+        // The listing already says the type, so unwanted articles are never downloaded.
+        if (!wanted(entry.content_type)) continue;
+        for (const u of extractArticleLinks(entry.body ?? '', config.authorUrl)) {
+          if (!seen.has(u)) {
+            seen.add(u);
+            queue.push(u);
+            scrolled++;
+          }
+        }
+      }
+      cursor = entries.at(-1).timestamp;
+    }
+    stored.cursor = cursor;
+  }
 
   const items = [];
   const ignored = [];
+  const dropped = new Set();
   const authorRe = new RegExp(config.authorMatch, 'i');
-  for (const url of links.slice(0, config.maxNewPerRun)) {
+  const batch = queue.slice(0, config.maxNewPerRun);
+  for (const url of batch) {
     try {
       const meta = readArticleMeta(await (await get(url)).text());
-      if (!meta.title || !authorRe.test(meta.author ?? '')) {
+      if (!meta.title || !authorRe.test(meta.author ?? '') || !wanted(meta.type)) {
         ignored.push(url);
+        dropped.add(url);
         continue;
       }
       items.push({
@@ -33,16 +73,23 @@ export async function fetchAuthorPage(config, { source, prefix }) {
         date: toIso(meta.date),
         image: meta.image,
         section: meta.section,
+        type: meta.type,
       });
     } catch (err) {
       console.warn(`  ${source}: ${err.message}`);
     }
   }
 
-  const merged = mergeItems(stored.items, items);
-  // Remember rejected links so we do not re-download them every hour.
-  await writeJson(file, { ignored: [...stored.ignored, ...ignored].slice(-1000), items: merged });
-  return `${links.length} links novos, ${items.length} matérias suas, ${ignored.length} ignorados, ${merged.length} no total`;
+  const merged = mergeItems(stored.items, items).filter((i) => !dropped.has(i.url));
+  await writeJson(file, {
+    // Remember rejected links so we do not re-download them every hour.
+    ignored: [...stored.ignored, ...ignored].slice(-2000),
+    pending: queue.slice(batch.length),
+    ...(config.scroll && { cursor: stored.cursor ?? null, scrollDone: !!stored.scrollDone }),
+    items: merged,
+  });
+  const backlog = queue.length - batch.length;
+  return `${fresh.length} links novos, ${scrolled} do histórico, ${items.length} matérias guardadas, ${ignored.length} ignoradas, ${backlog} na fila, ${merged.length} no total`;
 }
 
 function extractArticleLinks(html, base) {
@@ -89,6 +136,8 @@ export function readArticleMeta(html) {
     date: ld.datePublished ?? meta['article:published_time'] ?? meta['date'],
     author: [ld.author, meta.author, meta['article:author']].filter(Boolean).join(' '),
     section: meta['article:section'],
+    // Omelete labels each page for its ad server: "news", "review", "article" or "list".
+    type: html.match(/"content_type":\s*"([^"]+)"/)?.[1],
   };
 }
 
