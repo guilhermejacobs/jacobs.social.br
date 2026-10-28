@@ -11,7 +11,7 @@
     "https://www.omelete.com.br/ccxp/marvel-day-na-ccxp26-evento-tera-dia-inteiro-dedicado-ao-universo-de-herois"
   ],
   "pending": [],
-  "cursor": 1783080705,
+  "cursor": 1778967955,
   "scrollDone": false,
   "items": [
     {
@@ -508,6 +508,314 @@
       "image": "https://cdn.ome.lt/f2sMX4ypyBaO65DARqWECuYYQJo=/1200x630/smart/filters:format(webp)/extras/conteudos/Emmy_Series_Recommendations.webp",
       "section": "Séries e TV",
       "type": "list"
+    },
+    {
+      "id": "om-series-tv-x-men-97-x-force-conheca-o-time",
+      "source": "omelete",
+      "title": "X-Men 97 | 2ª temporada apresenta X-Force (com direito a nova abertura)",
+      "description": "X-Force em X-Men 97: Conheça o novo time de mutantes da Marvel",
+      "url": "https://www.omelete.com.br/series-tv/x-men-97-x-force-conheca-o-time",
+      "date": "2026-07-01T18:10:15.000Z",
+      "image": "https://cdn.ome.lt/EWg2V1nYOB-65MGidZURsY7Lmv4=/1200x630/smart/filters:format(webp)/extras/conteudos/image_rc6Aez4.png",
+      "section": "Séries e TV",
+      "type": "article"
+    },
+    {
+      "id": "om-filmes-supergirl-fracasso-dc-studios-analise-james-gunn",
+      "source": "omelete",
+      "title": "Supergirl é o primeiro fracasso da DC de James Gunn; é hora de se preocupar?",
+      "description": "Supergirl é o primeiro fracasso da DC de James Gunn; é hora de se preocupar?",
+      "url": "https://www.omelete.com.br/filmes/supergirl-fracasso-dc-studios-analise-james-gunn",
+      "date": "2026-06-29T15:15:49.000Z",
+      "image": "https://cdn.ome.lt/Z3m0UU7qiJTX1swZLQcJBZIdhTk=/1200x630/smart/filters:format(webp)/extras/conteudos/DC_Studios_Vai_Acabar.webp",
+      "section": "Filmes",
+      "type": "article"
+    },
+    {
+      "id": "om-filmes-criticas-supergirl-milly-alcock-jason-momoa",
+      "source": "omelete",
+      "title": "Supergirl confirma Milly Alcock como peça valiosa no DCU e não vai muito além",
+      "description": "Crítica | Supergirl confirma Milly Alcock como peça valiosa no DCU, e não faz muito mais",
+      "url": "https://www.omelete.com.br/filmes/criticas/supergirl-milly-alcock-jason-momoa",
+      "date": "2026-06-24T16:00:00.000Z",
+      "image": "https://cdn.ome.lt/OS3iyeysWYCleApyJAfWC-nGrh0=/1200x630/smart/filters:format(webp)/extras/conteudos/supergirl-critica.jpg",
+      "section": "Filmes",
+      "type": "review"
+    },
+    {
+      "id": "om-filmes-supergirl-primeiras-reacoes",
+      "source": "omelete",
+      "title": "Supergirl tem ótima Milly Alcock e Krypto emocionante; primeiras impressões",
+      "description": "Omelete já assistiu: Supergirl tem ótima Milly Alcock e Krypto emocionante; primeiras impressões",
+      "url": "https://www.omelete.com.br/filmes/supergirl-primeiras-reacoes",
+      "date": "2026-06-18T19:33:56.000Z",
+      "image": "https://cdn.ome.lt/xgcA1bYiIHYFN6VBZJ_U7mOWcTo=/1200x630/smart/filters:format(webp)/extras/conteudos/supergirl_primeiras_impressoes.jpg",
+      "section": "Filmes",
+      "type": "article"
+    },
+    {
+      "id": "om-filmes-superman-vs-lobo-jason-momoa-david-corenswet",
+      "source": "omelete",
+      "title": "Superman x Lobo: Jason Momoa quer brigar (ou sair para beber) com herói em filme",
+      "description": "Superman x Lobo: Jason Momoa quer enfrentar David Corenswet em filme",
+      "url": "https://www.omelete.com.br/filmes/superman-vs-lobo-jason-momoa-david-corenswet",
+      "date": "2026-06-15T23:00:00.000Z",
+      "image": "https://cdn.ome.lt/IGsluYGiQceFXwyGOiaM3xLDafY=/1200x630/smart/filters:format(webp)/extras/conteudos/Superman_vs_Lobo.webp",
+      "section": "Filmes",
+      "type": "article"
+    },
+    {
+      "id": "om-filmes-jason-momoa-dceu-vs-dcu-zack-snyder-james-gunn-comparacao",
+      "source": "omelete",
+      "title": "DCU x DCEU: Jason Momoa compara mundos de Zack Snyder e James Gunn (EXCLUSIVO)",
+      "description": "DCU vs DCEU: Jason Momoa compara universos de Zack Snyder e James Gunn",
+      "url": "https://www.omelete.com.br/filmes/jason-momoa-dceu-vs-dcu-zack-snyder-james-gunn-comparacao",
+      "date": "2026-06-11T17:00:00.000Z",
+      "image": "https://cdn.ome.lt/uhCkT3bsn7s8isbflvc2vFv61Lk=/1200x630/smart/filters:format(webp)/extras/conteudos/Jason_Momoa_Lobo_Aquaman.webp",
+      "section": "Filmes",
+      "type": "article"
+    },
+    {
+      "id": "om-ccxp-ccxp26-elijah-wood-o-senhor-dos-aneis-dias-fotos-autografos",
+      "source": "omelete",
+      "title": "Elijah Wood na CCXP26: Datas, palcos e programação do Frodo no Brasil",
+      "description": "Elijah Wood na CCXP26: Datas, palcos e programação do Frodo no Brasil",
+      "url": "https://www.omelete.com.br/ccxp/ccxp26-elijah-wood-o-senhor-dos-aneis-dias-fotos-autografos",
+      "date": "2026-06-03T14:05:00.000Z",
+      "image": "https://cdn.ome.lt/awhAhCmqE0UuJxuePX7ydyOqOHY=/1200x630/smart/filters:format(webp)/extras/conteudos/Elijah_Wood_CCXP26.webp",
+      "section": "CCXP",
+      "type": "article"
+    },
+    {
+      "id": "om-filmes-dia-d-steven-spielberg-entrevista-exclusiva",
+      "source": "omelete",
+      "title": "Spielberg explica sua abordagem em Dia D: \"cada cena é um mistério\" (Exclusivo)",
+      "description": "Steven Spielberg explica sua abordagem em Dia D: \"cada cena é um mistério\" (Exclusivo)",
+      "url": "https://www.omelete.com.br/filmes/dia-d-steven-spielberg-entrevista-exclusiva",
+      "date": "2026-06-01T23:03:44.000Z",
+      "image": "https://cdn.ome.lt/8Qu2UILlJ1v9CfXa807bqN5uIqI=/1200x630/smart/filters:format(webp)/extras/conteudos/steven-spielberg-dia-d-entrevista.jpg",
+      "section": "Filmes",
+      "type": "article"
+    },
+    {
+      "id": "om-filmes-criticas-fjord-critica-sebastian-stan-renate-reinsve-cannes-2026",
+      "source": "omelete",
+      "title": "Fjord: Vencedor da Palma de Ouro faz drama asfixiante sobre cristianismo",
+      "description": "Confira a crítica de Fjord, exibido no Festival de Cannes",
+      "url": "https://www.omelete.com.br/filmes/criticas/fjord-critica-sebastian-stan-renate-reinsve-cannes-2026",
+      "date": "2026-05-23T20:01:07.000Z",
+      "image": "https://cdn.ome.lt/RHQNVZBibHFmg97wgz9c6ZyEYqo=/1200x630/smart/filters:format(webp)/extras/conteudos/imagem_2026-05-18_185958876.png",
+      "section": "Filmes",
+      "type": "review"
+    },
+    {
+      "id": "om-filmes-criticas-the-dreamed-adventure-critica-cannes-2006",
+      "source": "omelete",
+      "title": "The Dreamed Adventure passeia sem pressa por drama de fronteira",
+      "description": "The Dreamed Adventure, novo filme de Valeska Grisebach, passeia sem pressa por drama de fronteira. Leia a crítica direto do Festival de Cannes 2026",
+      "url": "https://www.omelete.com.br/filmes/criticas/the-dreamed-adventure-critica-cannes-2006",
+      "date": "2026-05-23T14:04:37.000Z",
+      "image": "https://cdn.ome.lt/MaP9_s4JpvcGjI6BvQF6pFJGP9c=/1200x630/smart/filters:format(webp)/extras/conteudos/The-Dreamed-Adventure.webp",
+      "section": "Filmes",
+      "type": "review"
+    },
+    {
+      "id": "om-filmes-festival-de-cannes-2026-melhores-filmes",
+      "source": "omelete",
+      "title": "Festival de Cannes 2026: Os 10 Melhores Filmes da Edição",
+      "description": "Festival de Cannes 2026: Os 10 Melhores Filmes da Edição",
+      "url": "https://www.omelete.com.br/filmes/festival-de-cannes-2026-melhores-filmes",
+      "date": "2026-05-22T18:39:31.000Z",
+      "image": "https://cdn.ome.lt/_v9ArVASrBcQsGFBIIlR6h6Hm3I=/1200x630/smart/filters:format(webp)/extras/conteudos/Top_10_Cannes_Films_2026.webp",
+      "section": "Filmes",
+      "type": "list"
+    },
+    {
+      "id": "om-filmes-criticas-la-bola-negra-cannes",
+      "source": "omelete",
+      "title": "La Bola Negra | Grande filme espanhol em Cannes 2026 aborda histórias esquecidas",
+      "description": "Crítica de La Bola Negra | Grande filme espanhol em Cannes 2026 aborda histórias esquecidas",
+      "url": "https://www.omelete.com.br/filmes/criticas/la-bola-negra-cannes",
+      "date": "2026-05-22T12:50:00.000Z",
+      "image": "https://cdn.ome.lt/Te29XaLNhbFahQ7X4VG9cdJMUgk=/1200x630/smart/filters:format(webp)/extras/conteudos/la-bola-negra-critica.jpg",
+      "section": "Filmes",
+      "type": "review"
+    },
+    {
+      "id": "om-filmes-criticas-coward-lukas-dhont-cannes-2026",
+      "source": "omelete",
+      "title": "Coward | Lukas Dhont perde uma guerra contra si mesmo em novo drama gay",
+      "description": "Crítica de Coward | Lukas Dhont perde uma guerra contra si mesmo em novo drama gay",
+      "url": "https://www.omelete.com.br/filmes/criticas/coward-lukas-dhont-cannes-2026",
+      "date": "2026-05-22T12:37:55.000Z",
+      "image": "https://cdn.ome.lt/U9OJrgr-4Oh2pRzodcFaqSMvC5U=/1200x630/smart/filters:format(webp)/extras/conteudos/imagem_2026-05-22_101822573.png",
+      "section": "Filmes",
+      "type": "review"
+    },
+    {
+      "id": "om-filmes-criticas-victorian-psycho-psicopata-vitoriana-maika-monroe",
+      "source": "omelete",
+      "title": "Victorian Psycho é (quase) tão divertido quanto seu título sugere",
+      "description": "Crítica: Com Maika Monroe, Victorian Psycho é (quase) tão divertido quanto seu título sugere",
+      "url": "https://www.omelete.com.br/filmes/criticas/victorian-psycho-psicopata-vitoriana-maika-monroe",
+      "date": "2026-05-22T10:00:00.000Z",
+      "image": "https://cdn.ome.lt/c0DwUqyV2FA755JuQE49IXjq9Pg=/1200x630/smart/filters:format(webp)/extras/conteudos/victorian-psycho.webp",
+      "section": "Filmes",
+      "type": "review"
+    },
+    {
+      "id": "om-filmes-criticas-the-man-i-love-rami-malek-ira-sachs",
+      "source": "omelete",
+      "title": "The Man I Love | Rami Malek canta e dança em drama sobre AIDS em Nova York",
+      "description": "Cannes: The Man I Love | Rami Malek canta e dança em drama sobre AIDS em Nova York",
+      "url": "https://www.omelete.com.br/filmes/criticas/the-man-i-love-rami-malek-ira-sachs",
+      "date": "2026-05-21T12:00:00.000Z",
+      "image": "https://cdn.ome.lt/1e72BwoJf0K64bxey5sdcyOr4rU=/1200x630/smart/filters:format(webp)/extras/conteudos/imagem_2026-05-22_102002096.png",
+      "section": "Filmes",
+      "type": "review"
+    },
+    {
+      "id": "om-filmes-criticas-notre-salut-critica",
+      "source": "omelete",
+      "title": "Notre Salut não sustenta história burocrática sobre a França na 2ª Guerra",
+      "description": "Notre Salut não sustenta história burocrática sobre a França na 2ª Guerra - Crítica, Cannes",
+      "url": "https://www.omelete.com.br/filmes/criticas/notre-salut-critica",
+      "date": "2026-05-20T17:23:58.000Z",
+      "image": "https://cdn.ome.lt/BvnoonbM5wDiO8sTYyZFype8ZMk=/1200x630/smart/filters:format(webp)/extras/conteudos/salut_topo.png",
+      "section": "Filmes",
+      "type": "review"
+    },
+    {
+      "id": "om-filmes-criticas-minotauro-andrei-zvyaginstev-cannes",
+      "source": "omelete",
+      "title": "Minotaur | Grande drama familiar traça linha entre Rússia/Ucrânia e infidelidade",
+      "description": "Crítica de Minotaur | Grande drama familiar de Andreï Zvyagintsev traça linha entre Rússia/Ucrânia e infidelidade",
+      "url": "https://www.omelete.com.br/filmes/criticas/minotauro-andrei-zvyaginstev-cannes",
+      "date": "2026-05-20T11:00:00.000Z",
+      "image": "https://cdn.ome.lt/6GKjee93LXTiXYCsjIzNQGMYRY4=/1200x630/smart/filters:format(webp)/extras/conteudos/minotuar-critica.webp",
+      "section": "Filmes",
+      "type": "review"
+    },
+    {
+      "id": "om-filmes-criticas-kokurojo-o-samurai-e-o-prisioneiro-kiyoshi-kurosawa",
+      "source": "omelete",
+      "title": "Kokurojo | Kiyoshi Kurosawa faz ótima adaptação de O Samurai e O Prisioneiro",
+      "description": "Crítica de Kokurojo | Kiyoshi Kurosawa faz ótima adaptação de O Samurai e O Prisioneiro",
+      "url": "https://www.omelete.com.br/filmes/criticas/kokurojo-o-samurai-e-o-prisioneiro-kiyoshi-kurosawa",
+      "date": "2026-05-20T10:00:00.000Z",
+      "image": "https://cdn.ome.lt/MzVG5ASt3xfkNtZJ-9Blj8Ye5iY=/1200x630/smart/filters:format(webp)/extras/conteudos/kokurojo-critica.webp",
+      "section": "Filmes",
+      "type": "review"
+    },
+    {
+      "id": "om-filmes-criticas-natal-amargo-critica-festival-cannes-2026",
+      "source": "omelete",
+      "title": "Natal Amargo | Pedro Almodóvar faz exploração básica da autoficção em novo filme",
+      "description": "Confira a crítica de Natal Amargo, exibido no Festival de Cannes 2026",
+      "url": "https://www.omelete.com.br/filmes/criticas/natal-amargo-critica-festival-cannes-2026",
+      "date": "2026-05-19T19:21:10.000Z",
+      "image": "https://cdn.ome.lt/dVY-kajbdPsj1aW0SVm3i34PLUY=/1200x630/smart/filters:format(webp)/extras/conteudos/imagem_2026-05-19_161511726.png",
+      "section": "Filmes",
+      "type": "review"
+    },
+    {
+      "id": "om-filmes-criticas-garance-adele-exarchopoulos-jeanne-herry",
+      "source": "omelete",
+      "title": "Garance | Filme com Adèle Exarchopoulos não sabe o que fazer com sua história",
+      "description": "Crítica de Garance | Filme com Adèle Exarchopoulos não sabe o que fazer com sua história",
+      "url": "https://www.omelete.com.br/filmes/criticas/garance-adele-exarchopoulos-jeanne-herry",
+      "date": "2026-05-19T11:00:00.000Z",
+      "image": "https://cdn.ome.lt/KfRIKRsh6nss7i3Erf4nQkoes3k=/1200x630/smart/filters:format(webp)/extras/conteudos/Garance.jpg",
+      "section": "Filmes",
+      "type": "review"
+    },
+    {
+      "id": "om-filmes-criticas-her-private-hell-nicolas-winding-refn-sophie-thatcher",
+      "source": "omelete",
+      "title": "Her Private Hell | Nicolas Winding Refn faz trabalho vazio com Sophie Thatcher",
+      "description": "Crítica de Her Private Hell | Filme do diretor de Drive é espetáculo vazio com Sophie Thatcher",
+      "url": "https://www.omelete.com.br/filmes/criticas/her-private-hell-nicolas-winding-refn-sophie-thatcher",
+      "date": "2026-05-19T10:30:00.000Z",
+      "image": "https://cdn.ome.lt/Gn7cZMol83RthKLkwqxBZJRo7IQ=/1200x630/smart/filters:format(webp)/extras/conteudos/herprivatehell-teaser.jpg-fit-1280-2C720-ssl-1.jpg",
+      "section": "Filmes",
+      "type": "review"
+    },
+    {
+      "id": "om-filmes-criticas-the-unknown-critica-lea-seydoux-cannes",
+      "source": "omelete",
+      "title": "The Unknown | Léa Seydoux estrela drama que é Se Eu Fosse Você à francesa",
+      "description": "Confira a crítica de The Unknown, exibido no Festival de Cannes",
+      "url": "https://www.omelete.com.br/filmes/criticas/the-unknown-critica-lea-seydoux-cannes",
+      "date": "2026-05-18T21:28:24.000Z",
+      "image": "https://cdn.ome.lt/DHsW3AmjaEXGht7JXWK_qCBhRYM=/1200x630/smart/filters:format(webp)/extras/conteudos/imagem_2026-05-18_181403499.png",
+      "section": "Filmes",
+      "type": "review"
+    },
+    {
+      "id": "om-filmes-criticas-once-upon-a-time-in-harlem-critica",
+      "source": "omelete",
+      "title": "Once Upon a Time in Harlem conecta gerações para resgatar história fundamental",
+      "description": "Once Upon a Time in Harlem conecta gerações para resgatar história fundamental - Crítica",
+      "url": "https://www.omelete.com.br/filmes/criticas/once-upon-a-time-in-harlem-critica",
+      "date": "2026-05-18T13:45:55.000Z",
+      "image": "https://cdn.ome.lt/2ZD9smQqYCHAG4bAbpqOhJ3NIjE=/1200x630/smart/filters:format(webp)/extras/conteudos/harlem_topo.png",
+      "section": "Filmes",
+      "type": "review"
+    },
+    {
+      "id": "om-filmes-criticas-moulin-laszlo-nemes",
+      "source": "omelete",
+      "title": "Moulin faz espetáculo técnico em filme morno sobre herói da França",
+      "description": "Moulin | Crítica do filme sobre o herói da Resistência Francesa",
+      "url": "https://www.omelete.com.br/filmes/criticas/moulin-laszlo-nemes",
+      "date": "2026-05-17T20:43:40.000Z",
+      "image": "https://cdn.ome.lt/ijLmGI-jTKG2Z-YvF9kWjQIYjPc=/1200x630/smart/filters:format(webp)/extras/conteudos/ea955b3_upload-1-x5hjwaqkwcue-moulin01.jpg",
+      "section": "Filmes",
+      "type": "review"
+    },
+    {
+      "id": "om-filmes-criticas-el-ser-querido-javier-bardem",
+      "source": "omelete",
+      "title": "El Ser Querido tem atuação da vida (e de Oscar) de Javier Bardem",
+      "description": "Leia a crítica de El Ser Querido, filme de Rodrigo Sorogoyen com Javier Bardem",
+      "url": "https://www.omelete.com.br/filmes/criticas/el-ser-querido-javier-bardem",
+      "date": "2026-05-17T19:48:03.000Z",
+      "image": "https://cdn.ome.lt/71jmz3vAnAVBzUK9e0LKH16XrZA=/1200x630/smart/filters:format(webp)/extras/conteudos/El-ser-querido-una-copia-de-Sentimental-Value_RPhpjM6.jpg",
+      "section": "Filmes",
+      "type": "review"
+    },
+    {
+      "id": "om-filmes-criticas-sheep-in-the-box-hirokazu-koreeda",
+      "source": "omelete",
+      "title": "Sheep in the Box | Hirokazu Kore-eda encara IA em drama gentil até demais",
+      "description": "Crítica de Sheep in the Box | Hirokazu Kore-eda encara IA em drama gentil até demais",
+      "url": "https://www.omelete.com.br/filmes/criticas/sheep-in-the-box-hirokazu-koreeda",
+      "date": "2026-05-17T12:00:00.000Z",
+      "image": "https://cdn.ome.lt/ejhsFpOjvOXzFsE5ionmbq4Qx14=/1200x630/smart/filters:format(webp)/extras/conteudos/sheep-in-the-box-critica.webp",
+      "section": "Filmes",
+      "type": "review"
+    },
+    {
+      "id": "om-filmes-criticas-paper-tiger-james-gray-adam-driver-scarlett-johansson-miles-teller",
+      "source": "omelete",
+      "title": "Paper Tiger | Ótimo filme com Adam Driver faz grande suspense de crime",
+      "description": "Paper Tiger | Ótimo filme com Adam Driver traz faz grande suspense de crime",
+      "url": "https://www.omelete.com.br/filmes/criticas/paper-tiger-james-gray-adam-driver-scarlett-johansson-miles-teller",
+      "date": "2026-05-16T21:54:00.000Z",
+      "image": "https://cdn.ome.lt/u5imfadYgth3N88pna_nADsW2bU=/1200x630/smart/filters:format(webp)/extras/conteudos/paper-tiger-critica.webp",
+      "section": "Filmes",
+      "type": "review"
+    },
+    {
+      "id": "om-korea-criticas-colony-cannes-yeon-sang-ho",
+      "source": "omelete",
+      "title": "Colony | Diretor de Invasão Zumbi volta aos mortos vivos com filme empolgante",
+      "description": "Colony | Crítica do novo filme de zumbis do diretor de Invasão Zumbi",
+      "url": "https://www.omelete.com.br/korea/criticas/colony-cannes-yeon-sang-ho",
+      "date": "2026-05-16T21:45:55.000Z",
+      "image": "https://cdn.ome.lt/cx77NTA_Xz1fxnnXiRXd0j1Os8Q=/1200x630/smart/filters:format(webp)/extras/conteudos/HFdEcOcboAE_V2b.jpg.webp",
+      "section": "Korea",
+      "type": "review"
     }
   ]
 }
