@@ -20,6 +20,8 @@ const SOURCES = {
   indiewire: { label: 'IndieWire', group: 'textos' },
 };
 // Manual items may use any source as long as they say which block they belong to.
+// Ad blockers hide elements whose class mentions "social", so CSS classes use another word.
+const classOf = (group) => (group === 'social' ? 'clips' : group);
 const groupOf = (i) => i.group ?? SOURCES[i.source]?.group;
 const labelOf = (i) => i.sourceLabel ?? SOURCES[i.source]?.label ?? i.source;
 
@@ -56,7 +58,7 @@ function meta(item) {
   const bits = [fmtDate(item.date), item.source === 'podcast' && fmtDuration(item.duration)].filter(Boolean);
   return `<span class="meta"><time datetime="${item.date}">${bits.join(' · ')}</time></span>`;
 }
-const kicker = (item) => `<span class="kicker k-${groupOf(item)}">${esc(labelOf(item))}</span>`;
+const kicker = (item) => `<span class="kicker k-${classOf(groupOf(item))}">${esc(labelOf(item))}</span>`;
 const thumb = (item, cls = '') =>
   item.image
     ? `<div class="thumb ${cls}"><img src="${esc(img(item.image))}" alt="" loading="lazy" decoding="async"></div>`
@@ -64,7 +66,7 @@ const thumb = (item, cls = '') =>
 
 function card(item) {
   const group = groupOf(item);
-  return `<article class="card card-${group}" data-group="${group}">
+  return `<article class="card card-${classOf(group)}" data-group="${group}">
   <a href="${esc(item.url)}" ${ext}>
     ${thumb(item, group === 'social' ? 'tall' : '')}
     <div class="card-body">${kicker(item)}<h3>${esc(item.title)}</h3>${meta(item)}</div>
@@ -73,8 +75,8 @@ function card(item) {
 }
 
 function socialList(cls = '') {
-  return `<ul class="social ${cls}">${config.social
-    .map((s) => `<li><a href="${esc(s.url)}" ${ext}><span class="social-label">${esc(s.label)}</span><span class="social-handle">${esc(s.handle)}</span></a></li>`)
+  return `<ul class="redes ${cls}">${config.social
+    .map((s) => `<li><a href="${esc(s.url)}" ${ext}><span class="redes-label">${esc(s.label)}</span><span class="redes-handle">${esc(s.handle)}</span></a></li>`)
     .join('')}</ul>`;
 }
 
@@ -89,7 +91,7 @@ const ICONS = {
 const iconFor = (url) => Object.entries(ICONS).find(([host]) => new URL(url).hostname.endsWith(host))?.[1];
 
 function socialIcons() {
-  return `<ul class="social-icons" aria-label="Redes sociais">${config.social
+  return `<ul class="redes-topo" aria-label="Redes sociais">${config.social
     .map((s) => {
       const icon = iconFor(s.url);
       const inner = icon ? `<svg viewBox="0 0 24 24" aria-hidden="true">${icon}</svg>` : esc(s.label);
@@ -150,8 +152,7 @@ ${body}
 </main>
 <footer class="footer">
   <div class="wrap">
-    <p class="footer-title">Me acompanhe</p>
-    ${socialList('social-footer')}
+    <p class="footer-title"><a href="/sobre/">Me acompanhe →</a></p>
     <p class="fineprint">© ${new Date().getFullYear()} ${esc(config.name)}. Conteúdo atualizado automaticamente.</p>
   </div>
 </footer>
@@ -163,7 +164,7 @@ ${body}
 
 function section(group, list, cls = '') {
   if (!list.length) return '';
-  return `<section class="wrap block block-${group}">
+  return `<section class="wrap block block-${classOf(group)}">
   <header class="block-head">
     <h2>${GROUPS[group].title}</h2>
     <a class="more" href="/arquivo/?tipo=${group}">Ver tudo →</a>
@@ -176,7 +177,7 @@ function section(group, list, cls = '') {
 function home() {
   const blocks = [
     section('podcasts', byGroup('podcasts').slice(0, 4)),
-    section('social', byGroup('social').slice(0, 6), 'row-social'),
+    section('social', byGroup('social').slice(0, 6), 'row-clips'),
     section('textos', byGroup('textos').slice(0, 4)),
   ].join('\n');
   const empty = `<section class="wrap empty"><h1>Em breve</h1><p>Os conteúdos aparecem aqui assim que a primeira atualização automática rodar.</p></section>`;
@@ -226,7 +227,7 @@ function about() {
     <h1>${esc(config.name)}</h1>
     ${config.bio.map((p) => `<p>${esc(p)}</p>`).join('\n    ')}
     <h2>Onde me encontrar</h2>
-    ${socialList('social-big')}
+    ${socialList('redes-big')}
   </div>
 </section>`,
   });
