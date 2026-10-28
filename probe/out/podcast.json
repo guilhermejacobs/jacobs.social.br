@@ -1,3 +1,62 @@
 {
-  "rssInPage": []
+  "status": 167144,
+  "ogTitle": "Cara-de-Barro e Top 5 Filmes de Terror do Ano",
+  "oembed": {
+    "title": "Cara-de-Barro e Top 5 Filmes de Terror do Ano",
+    "provider": "Spotify"
+  },
+  "rssInPage": [],
+  "itunes": [
+    {
+      "name": "Back to the Barre",
+      "artist": "Christi Lukasiak & Kelly Hyland",
+      "feed": "https://feeds.acast.com/public/shows/63e7cb3476a4a4001004ca4e",
+      "count": 288,
+      "last": "2026-10-26T10:00:00Z",
+      "feedTitle": "Back to the Barre",
+      "items": 288,
+      "firstItem": "\n\t\t\t<title>Abby QUITS Dance Moms… And The Girls Win Without Her | Back to the Barre</title>\n\t\t\t<itunes:title>Abby QUITS Dance Moms… And The Girls Win Without Her | Back to the Barre</itunes:title>\n\t\t\t<pubDate>Mon, 26 Oct 2026 10:00:00 GMT</pubDate>\n\t\t\t<itunes:duration>1:23:15</itunes:duration>\n\t\t\t<enclosure url=\"https://sphinx.acast.com/p/open/s/63e7cb3476a4a4001004ca4e/e/6adefc48b92c9ce59ee3df5e/media.mp3\" length=\"79926752\" type=\"audio/mpeg\"/>\n\t\t\t<guid isPermaLink=\"false\">6adefc48b92c9ce59ee3df5e</guid>\n\t\t\t<itunes:explicit>false</itunes:explicit>\n\t\t\t<link>https://shows.acast.com/back-to-the-barre/episodes/6adefc48b92c9ce59ee3df5e</link>\n\t\t\t<acast:episodeId>6adefc48b92c9ce59ee3df5e</acast:episodeId>\n\t\t\t<acast:showId>63e7cb3476a4a4001004ca4e</acast:showId>\n\t\t\t<acast:settings><![CDATA[FYjHyZbXWHZ7gmX8Pp1rmRbkUlg2iR8fDtnl1O71B2NsMHX9+Ab7j3CFlkomeWC41QjxbCs3ntJJPM9H4xjw0YJUNnyVm4nDM5Jh9l3N5826y94zSIG6/NP9YoWZc1eLFjXnn79heXMt/UT52iH9uhwzS97NMzxyv0nK8/wKjNmVw76qWMYspLd+R+o/vq6+Flv6isglbvOd3VNxM0Q/YrwVWvuZNRVZ0iObTtOv5r6EPgla7FpxAo5I/n2DjqQgdD38bL2Olfki/CANsKPA5yRPzWVPTjYI73+YRzL9k72zf3Z9INr9Gu0BFbkBa39Klh3TVUPeWQfKrwgjL2257zfKanNYRV6J5uXsCqF3bGcQu8DndW/lYiLb+5kLfYQRI1yiPu7WBd5lpsgSpRLIO3MMg5CQYT7X7Ag+Plc/S2wm5mHnEuThLOQJtICGXfppi00MIJwxZCKK6YMfZVEh2A==]]></acast:settings>\n\t\t\t<itunes:episodeType>full</itunes:episodeType>\n\t\t\t<itunes:image href=\"https://assets.pippa.io/shows/63e7cb3476a4a4001004ca4e/1694447845976-236805bb5a873da674dd557f36260b47.jpeg\"/>\n\t\t\t<description><![CDATA[<p>Abb"
+    },
+    {
+      "name": "sex and the sex in the sex",
+      "artist": "Honor Wolff, Jordan Barr and Urvi Majumdar",
+      "feed": "https://feeds.soundcloud.com/users/soundcloud:users:60941800/sounds.rss",
+      "count": 2,
+      "last": "2024-05-15T20:00:00Z",
+      "feedTitle": "sex and the sex in the sex",
+      "items": 2,
+      "firstItem": "\n      <guid isPermaLink=\"false\">tag:soundcloud,2010:tracks/1846072941</guid>\n      <title>608 The Catch</title>\n      <pubDate>Thu, 13 Jun 2024 00:38:51 +0000</pubDate>\n      <link>https://soundcloud.com/sexandthesexinthesex/608-ring-a-ding-ding</link>\n      <itunes:duration>00:53:40</itunes:duration>\n      <itunes:author>Honor Wolff, Jordan Barr and Urvi Majumdar</itunes:author>\n      <itunes:explicit>yes</itunes:explicit>\n      <itunes:summary>NEW EPISODE LETS GOOOOOO\nUrvi snorted a gecko and we're all just trying to come to terms with it. We also talk about Charlotte's wedding! \n&lt;3 &lt;3 &lt;3</itunes:summary>\n      <itunes:subtitle>NEW EPISODE LETS GOOOOOO\nUrvi snorted a gecko and…</itunes:subtitle>\n      <description>NEW EPISODE LETS GOOOOOO\nUrvi snorted a gecko and we're all just trying to come to terms with it. We also talk about Charlotte's wedding! \n&lt;3 &lt;3 &lt;3</description>\n      <enclosure type=\"audio/mpeg\" url=\"https://feeds.soundcloud.com/stream/1846072941-sexandthesexinthesex-608-ring-a-ding-ding.mp3\" length=\"128820480\"/>\n      <itunes:image href=\"https://i1.sndcdn.com/avatars-cbXmhNe05zLr5czG-VBQ0Jg-original.jpg\"/>\n    </item>"
+    },
+    {
+      "name": "Cine de Barra",
+      "artist": "Cine de Barra",
+      "feed": "http://benalmadelman.com/cinedebarrafeed.xml",
+      "count": 119,
+      "last": "2026-10-18T11:00:00Z",
+      "feedTitle": "Cine de Barra",
+      "items": 119,
+      "firstItem": "\r\n<title>Cine de barra 1x01 - Matthew Vaughn</title>\r\n<link>http://benalmadelman.com</link>\r\n<guid>http://ia800802.us.archive.org/33/items/CineDeBarra/CineDeBarra1x01-MatthewVaughn.mp3</guid>\r\n<description>En nuestro primer programa hablamos del director de cine Matthew Vaughn y del efecto espejo en el año 2000 en nuestra sección \"Cosas que nos hacen sentir viejos\".</description>\r\n<enclosure url=\"http://ia800802.us.archive.org/33/items/CineDeBarra/CineDeBarra1x01-MatthewVaughn.mp3\" length=\"103908532\" type=\"audio/mp3\" />\r\n<category>Podcast cine</category>\r\n<pubDate>Thu,16 Feb 2017 18:00:00 GMT</pubDate>\r\n<itunes:author>Cine de Barra</itunes:author>\r\n<itunes:subtitle>En nuestro primer programa hablamos del director de cine Matthew Vaughn y del efecto espejo en el año 2000.</itunes:subtitle>\r\n<itunes:summary>En nuestro primer programa hablamos del director de cine Matthew Vaughn y del efecto espejo en el año 2000.</itunes:summary>\r\n<itunes:image href=\"http://benalmadelman.com/wp-content/uploads/2017/02/Podcast-cine-de-barra-1.png\" />\r\n<itunes:duration>01:37:17</itunes:duration>\r\n<itunes:explicit>yes</itunes:explicit>\r\n<itunes:keywords>Podcast Cine, Podcast humor, Matthew Vaughn, Kingsman, Kick-Ass, X-Men</itunes:keywords>\r\n</item>\r\n\r\n\r\n"
+    },
+    {
+      "name": "Sala 7 - Podcast de Cinema",
+      "artist": "Eder & Leandro Barros",
+      "feed": "https://anchor.fm/s/467a3578/podcast/rss",
+      "count": 2,
+      "last": "2021-01-22T12:40:00Z"
+    },
+    {
+      "name": "Clacast - O Podcast do @Claquetedepapel",
+      "artist": "Henry Barros",
+      "feed": "https://anchor.fm/s/488c9860/podcast/rss",
+      "count": 14,
+      "last": "2022-08-08T22:00:00Z"
+    },
+    {
+      "name": "Estação Barra3",
+      "artist": "BARRA3 FILMES",
+      "feed": "https://anchor.fm/s/32a0d124/podcast/rss",
+      "count": 6,
+      "last": "2023-01-11T11:17:00Z"
+    }
+  ]
 }
