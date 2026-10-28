@@ -1,7 +1,8 @@
 name: Renovar token do Instagram
 
-# O token do Instagram vale 60 dias. Esta rotina o renova toda semana e grava o novo
-# valor no secret IG_ACCESS_TOKEN. Precisa do secret GH_PAT (veja o README).
+# Só para o token do "login do Instagram", que vale 60 dias: esta rotina o renova toda
+# semana e grava o novo valor no secret IG_ACCESS_TOKEN. Precisa do secret GH_PAT.
+# Com o "login do Facebook" (secret IG_USER_ID definido), o token não expira e nada é feito.
 on:
   schedule:
     - cron: '23 12 * * 1' # segundas, 9h23 em Brasília
@@ -14,8 +15,13 @@ jobs:
       - name: Renovar e salvar token
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
           GH_TOKEN: ${{ secrets.GH_PAT }}
         run: |
+          if [ -n "$IG_USER_ID" ]; then
+            echo "Token de Página do Facebook: não expira, nada a renovar."
+            exit 0
+          fi
           if [ -z "$IG_ACCESS_TOKEN" ] || [ -z "$GH_TOKEN" ]; then
             echo "::warning::Defina os secrets IG_ACCESS_TOKEN e GH_PAT para renovar o token."
             exit 0

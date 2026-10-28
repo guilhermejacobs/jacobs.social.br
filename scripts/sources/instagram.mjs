@@ -3,18 +3,25 @@ import { get, download, readJson, writeJson, mergeItems, toIso, truncate } from 
 const FILE = 'data/instagram.json';
 const FIELDS = 'id,caption,media_type,media_product_type,permalink,thumbnail_url,media_url,timestamp';
 
-// Uses the "Instagram API with Instagram Login" (professional accounts only).
+// Works with both flavours of Meta's Instagram API (professional accounts only):
+// - with IG_USER_ID: "Instagram API with Facebook Login", using a Page access token,
+//   which does not expire when generated from a long-lived user token;
+// - without it: "Instagram API with Instagram Login", using a 60-day Instagram token.
 // Thumbnails are downloaded because Instagram CDN links expire after a few days.
 export async function fetchInstagram(config) {
   const token = process.env.IG_ACCESS_TOKEN;
   if (!token) return 'pulado: defina o secret IG_ACCESS_TOKEN';
+  const userId = process.env.IG_USER_ID;
+  const endpoint = userId
+    ? `https://graph.facebook.com/${config.apiVersion}/${userId}/media`
+    : `https://graph.instagram.com/${config.apiVersion}/me/media`;
 
   const stored = await readJson(FILE, { items: [] });
   const known = new Set(stored.items.map((i) => i.id));
   const firstRun = known.size === 0;
 
   const media = [];
-  let url = `https://graph.instagram.com/${config.apiVersion}/me/media?fields=${FIELDS}&limit=50&access_token=${token}`;
+  let url = `${endpoint}?fields=${FIELDS}&limit=50&access_token=${token}`;
   for (let page = 0; url && page < (firstRun ? 40 : 3); page++) {
     const json = await (await get(url)).json();
     media.push(...json.data);

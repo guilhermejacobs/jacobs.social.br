@@ -96,13 +96,19 @@ Não precisa configurar nada. O site lê o feed RSS da sua página de autor (`in
 
 ### 6. Instagram
 
-A Meta só libera os posts pela API para contas **profissionais** (Criador ou Empresa).
+A Meta só libera os posts pela API para contas **profissionais** (Criador ou Empresa) ligadas a uma **Página do Facebook**. O site usa a "API do Instagram com login do Facebook" e um **token de Página, que não expira**.
 
-1. No app do Instagram: **Configurações → Tipo de conta e ferramentas → Mudar para conta profissional** (Criador).
-2. Em developers.facebook.com, crie um app do tipo **Business** e adicione o produto **Instagram** → **API setup with Instagram login**.
-3. Em "Generate access tokens", adicione a sua conta `@gjsix` e gere o token. Esse token já é de longa duração (60 dias).
-4. Salve o token no secret `IG_ACCESS_TOKEN` do repositório.
-5. **Renovação automática:** crie um token do GitHub em github.com/settings/personal-access-tokens, do tipo *fine-grained*, só para este repositório, com permissão **Secrets: Read and write**. Salve-o no secret `GH_PAT`. Toda semana o workflow "Renovar token do Instagram" gera um token novo e o salva no lugar do antigo.
+1. **Conta profissional:** no app do Instagram, **Configurações → Tipo de conta e ferramentas → Mudar para conta profissional → Criador**.
+2. **Ligar a uma Página do Facebook:** no app do Instagram, **Editar perfil → Página → Conectar** (escolha uma Página sua ou crie uma).
+3. **Permissões do app:** em developers.facebook.com → app `jacobs.social.br` → **Casos de uso → Personalizar → Configuração da API com login do Facebook**, clique em **Add required content permissions**.
+4. **Token de usuário:** abra developers.facebook.com/tools/explorer. À direita, escolha o app `jacobs.social.br`, em "Usuário ou Página" escolha **Token de usuário** e adicione as permissões `instagram_basic`, `pages_show_list`, `pages_read_engagement` e `business_management`. Clique em **Generate Access Token** e autorize, marcando a sua Página e o `@gjsix`.
+5. **Estender o token:** copie o token, abra developers.facebook.com/tools/debug/accesstoken, cole, clique em **Depurar** e, no fim da página, em **Estender token de acesso**. Copie o token novo (de 60 dias).
+6. **Token de Página:** volte ao Explorer, cole o token estendido no campo "Token de acesso" e consulte `me/accounts?fields=name,access_token,instagram_business_account`. Na resposta, copie o `access_token` da sua Página e o `id` dentro de `instagram_business_account`.
+7. **Secrets do GitHub:** salve o `access_token` como `IG_ACCESS_TOKEN` e o `id` como `IG_USER_ID`. Para conferir, cole o token da Página no depurador: em "Expira", deve aparecer **Nunca**.
+
+O token só deixa de funcionar se você trocar a senha do Facebook, remover o app ou perder o acesso de admin da Página. Nesse caso, repita os passos 4 a 7.
+
+O secret `GH_PAT` e o workflow "Renovar token do Instagram" só são necessários no outro modo, a "API do Instagram com login do Instagram" (sem `IG_USER_ID`), cujo token vale 60 dias.
 
 Por padrão o site mostra só os **Reels** (`instagram.onlyReels`). Mude para `false` para incluir fotos e carrosséis.
 
