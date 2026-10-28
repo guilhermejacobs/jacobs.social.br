@@ -10,11 +10,8 @@
     "https://www.omelete.com.br/filmes/you-can-see-everything-data-titulo-brasil-mostra-sp",
     "https://www.omelete.com.br/ccxp/marvel-day-na-ccxp26-evento-tera-dia-inteiro-dedicado-ao-universo-de-herois"
   ],
-  "pending": [
-    "https://www.omelete.com.br/filmes/criticas/o-esquema-fenicio-critica-wes-anderson-festival-de-cannes",
-    "https://www.omelete.com.br/filmes/criticas/amrum-critica-fatih-akin-festival-de-cannes-2025"
-  ],
-  "cursor": 1747584000,
+  "pending": [],
+  "cursor": 1740420309,
   "scrollDone": false,
   "items": [
     {
@@ -2425,6 +2422,303 @@
       "image": "https://cdn.ome.lt/MxPZaCrqWpZitLt1oTHPDrDmV1A=/1200x630/smart/filters:format(webp)/extras/conteudos/highest_certo.jpg",
       "section": "Filmes",
       "type": "review"
+    },
+    {
+      "id": "om-filmes-criticas-o-esquema-fenicio-critica-wes-anderson-festival-de-cannes",
+      "source": "omelete",
+      "title": "O Esquema Fenício é o hilário (e mais superficial) filme de ação de Wes Anderson",
+      "description": "Crítica de O Esquema Fenício, novo filme de Wes Anderson",
+      "url": "https://www.omelete.com.br/filmes/criticas/o-esquema-fenicio-critica-wes-anderson-festival-de-cannes",
+      "date": "2025-05-19T10:00:00.000Z",
+      "image": "https://cdn.ome.lt/CJXGBQtfwscT-Ckk3C24F6SzsIs=/1200x630/smart/filters:format(webp)/extras/conteudos/o-esquema-fenicio-critica.jpg",
+      "section": "Filmes",
+      "type": "review"
+    },
+    {
+      "id": "om-filmes-criticas-amrum-critica-fatih-akin-festival-de-cannes-2025",
+      "source": "omelete",
+      "title": "Amrum encara final da Segunda Guerra Mundial a partir de menino nazista",
+      "description": "Crítica de Amrum, filme de Fatih Akin com Diane Krüger no Festival de Cannes 2025",
+      "url": "https://www.omelete.com.br/filmes/criticas/amrum-critica-fatih-akin-festival-de-cannes-2025",
+      "date": "2025-05-18T16:00:00.000Z",
+      "image": "https://cdn.ome.lt/GnHsNXszO0iPvJjZQTqGlUcKCD8=/1200x630/smart/filters:format(webp)/extras/conteudos/amrum-critica.jpg",
+      "section": "Filmes",
+      "type": "review"
+    },
+    {
+      "id": "om-filmes-criticas-dossier-137-critica-festival-de-cannes",
+      "source": "omelete",
+      "title": "Dossier 137 acende pavio de uma bomba política só para deixá-lo se apagar",
+      "description": "Crítica do filme Dossier 137, sobre os protestos dos coletes amarelos em Paris",
+      "url": "https://www.omelete.com.br/filmes/criticas/dossier-137-critica-festival-de-cannes",
+      "date": "2025-05-18T15:00:00.000Z",
+      "image": "https://cdn.ome.lt/xAQ-eE7N6ifwqo_2Rt8ON6Hhpv8=/1200x630/smart/filters:format(webp)/extras/conteudos/dossier-137-critica.jpg",
+      "section": "Filmes",
+      "type": "review"
+    },
+    {
+      "id": "om-filmes-criticas-die-my-love-critica-robert-pattinson-jennifer-lawrence",
+      "source": "omelete",
+      "title": "Die My Love surta no pós-parto com ótimos Robert Pattinson e Jennifer Lawrence",
+      "description": "Crítica do filme Die My Love, com Robert Pattinson e Jennifer Lawrence",
+      "url": "https://www.omelete.com.br/filmes/criticas/die-my-love-critica-robert-pattinson-jennifer-lawrence",
+      "date": "2025-05-18T13:00:00.000Z",
+      "image": "https://cdn.ome.lt/9N0fUHpTaToKZRfsTrjfrPrrW_k=/1200x630/smart/filters:format(webp)/extras/conteudos/die-my-love-critica-cannes.jpg",
+      "section": "Filmes",
+      "type": "review"
+    },
+    {
+      "id": "om-filmes-criticas-nouvelle-vague-critica-cannes-2025-richard-linklater-godard",
+      "source": "omelete",
+      "title": "Nouvelle Vague recria bastidores de clássico de Godard com filme saltitante",
+      "description": "Crítica de Nouvelle Vague (2025), filme de Richard Linklater sobre Godard e Nova Onda Francesa",
+      "url": "https://www.omelete.com.br/filmes/criticas/nouvelle-vague-critica-cannes-2025-richard-linklater-godard",
+      "date": "2025-05-18T12:00:00.000Z",
+      "image": "https://cdn.ome.lt/ltMO1bRb0WAO0mwayfTM9i2U66Y=/1200x630/smart/filters:format(webp)/extras/conteudos/nouvelle-vague-filme-2025-critica.jpg",
+      "section": "Filmes",
+      "type": "review"
+    },
+    {
+      "id": "om-filmes-criticas-eddington-criitca-ari-aster-pedro-pascal-joaquin-phoenix-critica",
+      "source": "omelete",
+      "title": "Em Eddington, Ari Aster faz comédia política onde toda risada é uma bad vibe",
+      "description": "Crítica de Eddington, filme de Ari Aster sobre a pandemia do COVID com Joaquin Phoenix, Emma Stone e Pedro Pascal",
+      "url": "https://www.omelete.com.br/filmes/criticas/eddington-criitca-ari-aster-pedro-pascal-joaquin-phoenix-critica",
+      "date": "2025-05-17T22:58:33.000Z",
+      "image": "https://cdn.ome.lt/bZO293VbVHLS7A9i0G_XUmp_04c=/1200x630/smart/filters:format(webp)/extras/conteudos/eddington-critica-cannes.jpg",
+      "section": "Filmes",
+      "type": "review"
+    },
+    {
+      "id": "om-filmes-criticas-sound-of-falling-festival-de-cannes-2025-critica",
+      "source": "omelete",
+      "title": "Em Sound of Falling, somos espectadores de um século do sofrimento feminino",
+      "description": "Crítica do filme Sound of Falling, que está no Festival de Cannes 2025",
+      "url": "https://www.omelete.com.br/filmes/criticas/sound-of-falling-festival-de-cannes-2025-critica",
+      "date": "2025-05-15T10:00:00.000Z",
+      "image": "https://cdn.ome.lt/nklb-C9wHHLrVvKv2ttY9Di5DiU=/1200x630/smart/filters:format(webp)/extras/conteudos/sound-of-falling.jpg",
+      "section": "Filmes",
+      "type": "review"
+    },
+    {
+      "id": "om-filmes-criticas-partir-un-jour-abertura-festival-de-cannes-2025-critica",
+      "source": "omelete",
+      "title": "Partir Un Jour abre Cannes 2025 com musical repleto de clichês sem tempero",
+      "description": "Crítica do filme Partir un Jour, que abriu o Festival de Cannes 2025",
+      "url": "https://www.omelete.com.br/filmes/criticas/partir-un-jour-abertura-festival-de-cannes-2025-critica",
+      "date": "2025-05-14T10:00:00.000Z",
+      "image": "https://cdn.ome.lt/zrO55wLpNVgVaJFFL7zR8wNLgf0=/1200x630/smart/filters:format(webp)/extras/conteudos/partir-un-jour-1.jpg",
+      "section": "Filmes",
+      "type": "review"
+    },
+    {
+      "id": "om-filmes-thunderbolts-sentinela-superman-conexao-explicado-opiniao-marvel-dc",
+      "source": "omelete",
+      "title": "Opinião | Thunderbolts* e Sentinela mostram por que precisamos do novo Superman",
+      "description": "Opinião: Um novo filme do Superman é a resposta para Thunderbolts",
+      "url": "https://www.omelete.com.br/filmes/thunderbolts-sentinela-superman-conexao-explicado-opiniao-marvel-dc",
+      "date": "2025-05-05T23:30:33.000Z",
+      "image": "https://cdn.ome.lt/XJirbkjQc-AKB9h1DmaIV1LoSVA=/1200x630/smart/filters:format(webp)/extras/conteudos/thunderbolts-sentinela-superman_BzLIULQ.jpg",
+      "section": "Filmes",
+      "type": "article"
+    },
+    {
+      "id": "om-filmes-festival-de-cannes-2025-10-melhores-filmes-imperdiveis",
+      "source": "omelete",
+      "title": "Festival de Cannes 2025 | 15 Filmes Mais Aguardados",
+      "description": "Festival de Cannes 2025 | 15 Filmes Mais Aguardados",
+      "url": "https://www.omelete.com.br/filmes/festival-de-cannes-2025-10-melhores-filmes-imperdiveis",
+      "date": "2025-04-30T13:32:51.000Z",
+      "image": "https://cdn.ome.lt/UNEhKK9OvDGGfpeveDTyjkX71H8=/1200x630/smart/filters:format(webp)/extras/conteudos/cannes-2025-melhores-filmes-imperdiveis.jpg",
+      "section": "Filmes",
+      "type": "list"
+    },
+    {
+      "id": "om-filmes-criticas-looney-tunes-o-filme-dia-terra-explodiu-critica",
+      "source": "omelete",
+      "title": "Looney Tunes O Dia Que a Terra Explodiu é maratona engraçada, criativa e caótica",
+      "description": "Crítica de Looney Tunes: O Dia que a Terra Explodiu, uma das melhores animações do ano",
+      "url": "https://www.omelete.com.br/filmes/criticas/looney-tunes-o-filme-dia-terra-explodiu-critica",
+      "date": "2025-04-21T10:00:00.000Z",
+      "image": "https://cdn.ome.lt/2iYt7vP7fwVE3nOwL9esAPrnZZI=/1200x630/smart/filters:format(webp)/extras/conteudos/looney-tune-critica.jpg",
+      "section": "Filmes",
+      "type": "review"
+    },
+    {
+      "id": "om-filmes-criticas-tempo-de-guerra-critica-filme-explicado-a24",
+      "source": "omelete",
+      "title": "Tempo de Guerra é vazio como discurso, mas encontra identidade como filme",
+      "description": "Leia a crítica do filme Tempo de Guerra, do mesmo diretor de Guerra Civil com Wagner Moura",
+      "url": "https://www.omelete.com.br/filmes/criticas/tempo-de-guerra-critica-filme-explicado-a24",
+      "date": "2025-04-17T10:00:00.000Z",
+      "image": "https://cdn.ome.lt/Ae7CoYJ57xcAM7iYurciP9Soydg=/1200x630/smart/filters:format(webp)/extras/conteudos/tempo-de-guerra-critica.jpg",
+      "section": "Filmes",
+      "type": "review"
+    },
+    {
+      "id": "om-filmes-criticas-tempo-suspenso-critica-olivier-assayas",
+      "source": "omelete",
+      "title": "Tempo Suspenso é o filme mais divertido e perspicaz sobre a pandemia de 2020",
+      "description": "Crítica: Tempo Suspenso é o filme mais genuíno e divertido sobre a vida na pandemia de 2020",
+      "url": "https://www.omelete.com.br/filmes/criticas/tempo-suspenso-critica-olivier-assayas",
+      "date": "2025-04-11T12:29:31.000Z",
+      "image": "https://cdn.ome.lt/YMuewrOe-rjz88l12t-TafbeNdo=/1200x630/smart/filters:format(webp)/extras/conteudos/tempo-suspenso-critica.jpg",
+      "section": "Filmes",
+      "type": "review"
+    },
+    {
+      "id": "om-filmes-drop-ameaca-anonima-final-explicado-mensagens",
+      "source": "omelete",
+      "title": "Drop: Ameaça Anônima | Final Explicado: Quem mandou as mensagens?",
+      "description": "Final de Drop Explicado: Quem está mandando as mensagens de Ameaça Anônima?",
+      "url": "https://www.omelete.com.br/filmes/drop-ameaca-anonima-final-explicado-mensagens",
+      "date": "2025-04-10T21:00:00.000Z",
+      "image": "https://cdn.ome.lt/1q6U_5odTC9PW4tXAs3Y6TQXlBQ=/1200x630/smart/filters:format(webp)/extras/conteudos/imagem_2025-04-10_141103718.png",
+      "section": "Filmes",
+      "type": "list"
+    },
+    {
+      "id": "om-filmes-criticas-drop-ameaca-anonima-critica-explicado-terror-airdrop",
+      "source": "omelete",
+      "title": "Drop: Ameaça Anônima usa ideia de terror no AirDrop para divertir e agonizar",
+      "description": "Drop: Ameaça Anônima é o filme de terror que faz suspense pelo AirDrop",
+      "url": "https://www.omelete.com.br/filmes/criticas/drop-ameaca-anonima-critica-explicado-terror-airdrop",
+      "date": "2025-04-10T11:10:18.000Z",
+      "image": "https://cdn.ome.lt/ZjIm4NKHivyy4iFomQeUPj-LrdA=/1200x630/smart/filters:format(webp)/extras/conteudos/drop_wKWTwlV.jpg",
+      "section": "Filmes",
+      "type": "review"
+    },
+    {
+      "id": "om-filmes-um-filme-minecraft-salvou-cinema-hollywood-2025",
+      "source": "omelete",
+      "title": "Como Minecraft salvou 2025, e o que Hollywood precisa aprender com isso",
+      "description": "O que Hollywood precisa aprender com o sucesso de Minecraft",
+      "url": "https://www.omelete.com.br/filmes/um-filme-minecraft-salvou-cinema-hollywood-2025",
+      "date": "2025-04-08T18:00:05.000Z",
+      "image": "https://cdn.ome.lt/ar0ByGt1xBSGhx9qiN8yrqST5v0=/1200x630/smart/filters:format(webp)/extras/conteudos/minecraft-filme.jpg",
+      "section": "Filmes",
+      "type": "article"
+    },
+    {
+      "id": "om-series-tv-demolidor-renascido-critica-episodios-5-e-6",
+      "source": "omelete",
+      "title": "Demolidor faz combo divertido de episódios com roubo de banco e Muso",
+      "description": "Com episódios 5 e 6, Demolidor faz combo divertido com roubo de banco e Muso",
+      "url": "https://www.omelete.com.br/series-tv/demolidor-renascido-critica-episodios-5-e-6",
+      "date": "2025-03-26T01:00:01.000Z",
+      "image": "https://cdn.ome.lt/UkPe4QOHwd_GYqV_pAXrgld6ZxM=/1200x630/smart/filters:format(webp)/extras/conteudos/demolidor-ep_5.jpg",
+      "section": "Séries e TV",
+      "type": "article"
+    },
+    {
+      "id": "om-games-bloodborne-10-anos-medo-e-coragem",
+      "source": "omelete",
+      "title": "Como o medo e a coragem fizeram Bloodborne reinventar a série Souls",
+      "description": "A revolução de Hidetaka Miyazaki com elementos de terror e jogabilidade ofensiva",
+      "url": "https://www.omelete.com.br/games/bloodborne-10-anos-medo-e-coragem",
+      "date": "2025-03-24T22:40:17.000Z",
+      "image": "https://cdn.ome.lt/U9s7g5AXfWs8pSozsIgpsiSkVdc=/1200x630/smart/filters:format(webp)/extras/conteudos/Design_sem_nome_-_2025-03-24T191951.303.png",
+      "section": "Games",
+      "type": "article"
+    },
+    {
+      "id": "om-series-tv-demolidor-renascido-marvel-episodio-4-critica-explicado-justiceiro",
+      "source": "omelete",
+      "title": "Demolidor: Renascido traz Justiceiro de volta em 4º episódio intenso",
+      "description": "Com a primeira participação do Justiceiro, Demolidor: Renascido discute sistemas sociais e falta do herói no 4º episódio",
+      "url": "https://www.omelete.com.br/series-tv/demolidor-renascido-marvel-episodio-4-critica-explicado-justiceiro",
+      "date": "2025-03-19T11:07:02.000Z",
+      "image": "https://cdn.ome.lt/-ckTWqt9FOs9ZgtBQwqcfda5pO0=/1200x630/smart/filters:format(webp)/extras/conteudos/demolidor-renascido-ep4.png",
+      "section": "Séries e TV",
+      "type": "article"
+    },
+    {
+      "id": "om-filmes-criticas-pequenas-coisas-como-estas-critica-cillian-murphy-explicado",
+      "source": "omelete",
+      "title": "Cillian Murphy mantém as brasas de Pequenas Coisas Como Estas minimamente acesas",
+      "description": "Crítica do filme Pequenas Coisas Como Estas, com Cillian Murphy",
+      "url": "https://www.omelete.com.br/filmes/criticas/pequenas-coisas-como-estas-critica-cillian-murphy-explicado",
+      "date": "2025-03-13T12:00:46.000Z",
+      "image": "https://cdn.ome.lt/rlLtUxfUfl1s6b4nuQAI0C6tCIg=/1200x630/smart/filters:format(webp)/extras/conteudos/pequenas-coisas-como-estas-critica.jpg",
+      "section": "Filmes",
+      "type": "review"
+    },
+    {
+      "id": "om-marvel-cinema-demolidor-renascido-marvel-episodio-3-critica-explicado-tigre-branco",
+      "source": "omelete",
+      "title": "Demolidor: Renascido | Episódio 3 faz ótimo drama de tribunal com Tigre Branco",
+      "description": "Em ótimo terceiro episódio, Demolidor: Renascido faz drama de tribunal com o Tigre Branco e Justiceiro",
+      "url": "https://www.omelete.com.br/marvel-cinema/demolidor-renascido-marvel-episodio-3-critica-explicado-tigre-branco",
+      "date": "2025-03-12T01:00:00.000Z",
+      "image": "https://cdn.ome.lt/u8cE_BjUbYUibIoiwYErqidx4Ow=/1200x630/smart/filters:format(webp)/extras/conteudos/demolidor-renascido-critica-ep-3b.jpg",
+      "section": "Séries e TV",
+      "type": "article"
+    },
+    {
+      "id": "om-filmes-criticas-mickey-17-critica-explicado-robert-pattinson-bong-joon-ho",
+      "source": "omelete",
+      "title": "Com ótimo Robert Pattinson, Mickey 17 faz ataque bizarro e divertido à ganância",
+      "description": "Crítica: Mickey 17 ataca ganância de forma afiada, e Robert Pattinson é a ponta de sua faca",
+      "url": "https://www.omelete.com.br/filmes/criticas/mickey-17-critica-explicado-robert-pattinson-bong-joon-ho",
+      "date": "2025-03-05T10:00:00.000Z",
+      "image": "https://cdn.ome.lt/Fkbd6m2Ff11JORNrW9Np4kgQ3Zg=/1200x630/smart/filters:format(webp)/extras/conteudos/mickey-17-critica.jpg",
+      "section": "Filmes",
+      "type": "review"
+    },
+    {
+      "id": "om-series-tv-criticas-demolidor-renascido-1-temporada-critica",
+      "source": "omelete",
+      "title": "Atual e relevante, Demolidor: Renascido mostra o que tramas da Marvel podem ser",
+      "description": "Crítica: Demolidor: Renascido é, de longe, a melhor série da Marvel",
+      "url": "https://www.omelete.com.br/series-tv/criticas/demolidor-renascido-1-temporada-critica",
+      "date": "2025-03-05T02:00:00.000Z",
+      "image": "https://cdn.ome.lt/vzNYMfPLkG_Ei8YaCg4wd9bq8SM=/1200x630/smart/filters:format(webp)/extras/conteudos/demolidor-renascido-2.jpg",
+      "section": "Séries e TV",
+      "type": "review"
+    },
+    {
+      "id": "om-series-tv-demolidor-renascido-critica-episodios-1-e-2",
+      "source": "omelete",
+      "title": "Demolidor: Renascido inicia com dois ótimos episódios cheios de temas atuais",
+      "description": "Crítica Episódios 1 e 2 de Demolidor: Renascido. Série inicia com dois ótimos episódios cheios de temas atuais",
+      "url": "https://www.omelete.com.br/series-tv/demolidor-renascido-critica-episodios-1-e-2",
+      "date": "2025-03-05T02:00:00.000Z",
+      "image": "https://cdn.ome.lt/ML2QZrMotCPGXTqPQOfzpgH5ZL0=/1200x630/smart/filters:format(webp)/extras/conteudos/demolidor-born-again.webp",
+      "section": "Séries e TV",
+      "type": "article"
+    },
+    {
+      "id": "om-oscar-2025-anora-vence-oscar-melhor-filme-merece-explicado",
+      "source": "omelete",
+      "title": "Anora é o melhor tipo de vencedor do Oscar",
+      "description": "Por que Anora é o melhor tipo de vencedor do Oscar",
+      "url": "https://www.omelete.com.br/oscar-2025/anora-vence-oscar-melhor-filme-merece-explicado",
+      "date": "2025-03-03T03:45:00.000Z",
+      "image": "https://cdn.ome.lt/x7uIhg2eJf9Cxh4Xj-k97iZtg1U=/1200x630/smart/filters:format(webp)/extras/conteudos/anora-oscar-capa.jpg",
+      "section": "Filmes",
+      "type": "article"
+    },
+    {
+      "id": "om-filmes-o-reformatorio-nickel-filme-explicado-primeira-pessoa-oscar",
+      "source": "omelete",
+      "title": "O Reformatório Nickel é o melhor (e mais ignorado) filme indicado ao Oscar 2025",
+      "description": "Explicado: Por que Nickel Boys usa a câmera em primeira pessoa, e como isso o transforma numa obra-prima",
+      "url": "https://www.omelete.com.br/filmes/o-reformatorio-nickel-filme-explicado-primeira-pessoa-oscar",
+      "date": "2025-02-28T18:32:25.000Z",
+      "image": "https://cdn.ome.lt/ncTqqw9UlaQxwZ4tO5lQvj2R--w=/1200x630/smart/filters:format(webp)/extras/conteudos/o-reformatorio-nickel.jpg",
+      "section": "Filmes",
+      "type": "article"
+    },
+    {
+      "id": "om-filmes-um-completo-desconhecido-bob-dylan-timothee-chalamet-explicado",
+      "source": "omelete",
+      "title": "Um Completo Desconhecido é a antítese de Bob Dylan, com uma exceção",
+      "description": "Direto ao ponto, Um Completo Desconhecido é a antítese do mistério de Bob Dylan. Timothée Chalamet, por outro lado, entende o cantor.",
+      "url": "https://www.omelete.com.br/filmes/um-completo-desconhecido-bob-dylan-timothee-chalamet-explicado",
+      "date": "2025-02-27T10:00:00.000Z",
+      "image": "https://cdn.ome.lt/Qff3A0YoLmmrbyX7oCJP45ZZ74I=/1200x630/smart/filters:format(webp)/extras/conteudos/bob-dylan-timothee-chalamet.jpg",
+      "section": "Filmes",
+      "type": "article"
     }
   ]
 }
