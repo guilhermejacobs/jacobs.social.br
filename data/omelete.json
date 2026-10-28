@@ -11,7 +11,7 @@
     "https://www.omelete.com.br/ccxp/marvel-day-na-ccxp26-evento-tera-dia-inteiro-dedicado-ao-universo-de-herois"
   ],
   "pending": [],
-  "cursor": 1492428546,
+  "cursor": 1487934020,
   "scrollDone": false,
   "items": [
     {
@@ -3753,6 +3753,17 @@
       "image": "https://cdn.ome.lt/5TKBirunjhMxMysvwnPrcLPYP14=/1200x630/smart/filters:format(webp)/extras/conteudos/A-Torre-Negra.jpeg",
       "section": "Filmes",
       "type": "review"
+    },
+    {
+      "id": "om-deadpool-6-segredos-e-curiosidades-do-teaser-de-deadpool-2",
+      "source": "omelete",
+      "title": "6 segredos e curiosidades do teaser de Deadpool 2",
+      "description": "6 segredos e curiosidades do teaser de Deadpool 2",
+      "url": "https://www.omelete.com.br/deadpool/6-segredos-e-curiosidades-do-teaser-de-deadpool-2",
+      "date": "2017-03-04T20:41:22.000Z",
+      "image": "https://cdn.ome.lt/Wf5JRBtEu482qxLc57o1uROUxq8=/1200x630/smart/filters:format(webp)/extras/conteudos/Deadpool_2_capa.png",
+      "section": "Filmes",
+      "type": "list"
     }
   ]
 }
