@@ -1,4 +1,24 @@
-// Archive page: filter chips (?tipo=podcast|instagram|omelete) and "Carregar mais".
+// Theme toggle: dark by default, light remembered per visitor.
+(() => {
+  const button = document.getElementById('theme-toggle');
+  if (!button) return;
+  const root = document.documentElement;
+  const sync = () => {
+    const label = root.dataset.theme === 'light' ? 'Ativar modo noturno' : 'Ativar modo claro';
+    button.setAttribute('aria-label', label);
+    button.title = label;
+  };
+  button.addEventListener('click', () => {
+    root.dataset.theme = root.dataset.theme === 'light' ? 'dark' : 'light';
+    try {
+      localStorage.setItem('theme', root.dataset.theme);
+    } catch {}
+    sync();
+  });
+  sync();
+})();
+
+// Archive page: filter chips (?tipo=podcasts|social|textos) and "Carregar mais".
 (() => {
   const grid = document.getElementById('archive-grid');
   if (!grid) return;
@@ -11,7 +31,7 @@
   let limit = PAGE;
 
   function render() {
-    const matching = cards.filter((c) => filter === 'todos' || c.dataset.source === filter);
+    const matching = cards.filter((c) => filter === 'todos' || c.dataset.group === filter);
     cards.forEach((c) => c.classList.add('is-hidden'));
     matching.slice(0, limit).forEach((c) => c.classList.remove('is-hidden'));
     chips.forEach((c) => c.setAttribute('aria-pressed', String(c.dataset.filter === filter)));

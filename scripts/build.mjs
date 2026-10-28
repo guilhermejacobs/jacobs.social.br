@@ -6,11 +6,22 @@ const DIST = path.join(ROOT, 'dist');
 const sample = process.argv.includes('--sample');
 const config = await readJson('site.config.json');
 
-const SOURCES = {
-  podcast: { label: 'Podcast', cta: 'Ouvir no Spotify' },
-  instagram: { label: 'Reels', cta: 'Ver no Instagram' },
-  omelete: { label: 'Omelete', cta: 'Ler no Omelete' },
+// Each source belongs to one of the three blocks on the home page.
+const GROUPS = {
+  podcasts: { title: 'Podcasts' },
+  social: { title: 'Social' },
+  textos: { title: 'No Omelete e além' },
 };
+const SOURCES = {
+  podcast: { label: 'Podcast', group: 'podcasts' },
+  instagram: { label: 'Instagram', group: 'social' },
+  tiktok: { label: 'TikTok', group: 'social' },
+  omelete: { label: 'Omelete', group: 'textos' },
+  indiewire: { label: 'IndieWire', group: 'textos' },
+};
+// Manual items may use any source as long as they say which block they belong to.
+const groupOf = (i) => i.group ?? SOURCES[i.source]?.group;
+const labelOf = (i) => i.sourceLabel ?? SOURCES[i.source]?.label ?? i.source;
 
 // ---------- data ----------
 let show = null;
@@ -26,8 +37,8 @@ if (sample) {
   const extra = manual.items.map((i) => ({ id: `manual-${i.url}`, ...i, date: new Date(i.date).toISOString() }));
   items = mergeItems([...ig.items, ...pod.items, ...om.items], extra);
 }
-items = items.filter((i) => SOURCES[i.source] && i.url && i.date);
-const bySource = (s) => items.filter((i) => i.source === s);
+items = items.filter((i) => GROUPS[groupOf(i)] && i.url && i.date);
+const byGroup = (g) => items.filter((i) => groupOf(i) === g);
 
 // ---------- helpers ----------
 const esc = (s = '') =>
@@ -42,16 +53,17 @@ function meta(item) {
   const bits = [fmtDate(item.date), item.source === 'podcast' && fmtDuration(item.duration)].filter(Boolean);
   return `<span class="meta"><time datetime="${item.date}">${bits.join(' · ')}</time></span>`;
 }
-const kicker = (item) => `<span class="kicker k-${item.source}">${SOURCES[item.source].label}</span>`;
+const kicker = (item) => `<span class="kicker k-${groupOf(item)}">${esc(labelOf(item))}</span>`;
 const thumb = (item, cls = '') =>
   item.image
     ? `<div class="thumb ${cls}"><img src="${esc(img(item.image))}" alt="" loading="lazy" decoding="async"></div>`
-    : `<div class="thumb ${cls} thumb-empty"><span>${SOURCES[item.source].label}</span></div>`;
+    : `<div class="thumb ${cls} thumb-empty"><span>${esc(labelOf(item))}</span></div>`;
 
-function card(item, variant = '') {
-  return `<article class="card card-${item.source} ${variant}" data-source="${item.source}">
+function card(item) {
+  const group = groupOf(item);
+  return `<article class="card card-${group}" data-group="${group}">
   <a href="${esc(item.url)}" ${ext}>
-    ${thumb(item, item.source === 'instagram' ? 'tall' : '')}
+    ${thumb(item, group === 'social' ? 'tall' : '')}
     <div class="card-body">${kicker(item)}<h3>${esc(item.title)}</h3>${meta(item)}</div>
   </a>
 </article>`;
@@ -71,7 +83,7 @@ function page({ title, description = config.description, path: pagePath = '/', b
   ];
   const fullTitle = title ? `${title} · ${config.name}` : config.name;
   return `<!doctype html>
-<html lang="pt-BR">
+<html lang="pt-BR" data-theme="dark">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -89,15 +101,24 @@ function page({ title, description = config.description, path: pagePath = '/', b
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,400..700;1,8..60,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/styles.css">
-<script>document.documentElement.classList.add('js')</script>
+<script>
+document.documentElement.classList.add('js');
+try { if (localStorage.getItem('theme') === 'light') document.documentElement.dataset.theme = 'light'; } catch {}
+</script>
 </head>
 <body>
 <header class="masthead">
   <div class="wrap masthead-inner">
     <a class="wordmark" href="/">Guilherme <span>Jacobs</span></a>
-    <nav class="nav" aria-label="Principal">${nav
-      .map(([href, label]) => `<a href="${href}"${active === href ? ' aria-current="page"' : ''}>${label}</a>`)
-      .join('')}</nav>
+    <div class="masthead-right">
+      <nav class="nav" aria-label="Principal">${nav
+        .map(([href, label]) => `<a href="${href}"${active === href ? ' aria-current="page"' : ''}>${label}</a>`)
+        .join('')}</nav>
+      <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Ativar modo claro" title="Ativar modo claro">
+        <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 1.5v3M12 19.5v3M1.5 12h3M19.5 12h3M4.6 4.6l2.1 2.1M17.3 17.3l2.1 2.1M4.6 19.4l2.1-2.1M17.3 6.7l2.1-2.1"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11z"/></svg>
+      </button>
+    </div>
   </div>
 </header>
 <main>
@@ -116,49 +137,29 @@ ${body}
 `;
 }
 
-function section(source, title, list, { more = true, cls = '' } = {}) {
+function section(group, list, cls = '') {
   if (!list.length) return '';
-  return `<section class="wrap block block-${source}">
+  return `<section class="wrap block block-${group}">
   <header class="block-head">
-    <h2>${title}</h2>
-    ${more ? `<a class="more" href="/arquivo/?tipo=${source}">Ver tudo →</a>` : ''}
+    <h2>${GROUPS[group].title}</h2>
+    <a class="more" href="/arquivo/?tipo=${group}">Ver tudo →</a>
   </header>
-  <div class="row ${cls}">${list.map((i) => card(i)).join('')}</div>
+  <div class="row ${cls}">${list.map(card).join('')}</div>
 </section>`;
 }
 
 // ---------- pages ----------
 function home() {
-  const [lead, ...rest] = items;
-  const side = rest.slice(0, 4);
-  const hero = lead
-    ? `<section class="wrap hero">
-  <article class="lead card-${lead.source}">
-    <a href="${esc(lead.url)}" ${ext}>
-      ${thumb(lead, lead.source === 'instagram' ? 'tall' : 'wide')}
-      <div class="lead-body">${kicker(lead)}<h1>${esc(lead.title)}</h1>
-      ${lead.description ? `<p class="dek">${esc(lead.description)}</p>` : ''}${meta(lead)}</div>
-    </a>
-  </article>
-  <aside class="latest" aria-label="Mais recentes">
-    <h2 class="rail-title">Mais recentes</h2>
-    <ol>${side
-      .map(
-        (i) => `<li><a href="${esc(i.url)}" ${ext}>${thumb(i, 'mini')}<div>${kicker(i)}<h3>${esc(i.title)}</h3>${meta(i)}</div></a></li>`,
-      )
-      .join('')}</ol>
-  </aside>
-</section>`
-    : `<section class="wrap empty"><h1>Em breve</h1><p>Os conteúdos aparecem aqui assim que a primeira atualização automática rodar.</p></section>`;
-
-  const showName = show?.name ? esc(show.name) : 'Podcast';
+  const blocks = [
+    section('podcasts', byGroup('podcasts').slice(0, 4)),
+    section('social', byGroup('social').slice(0, 6), 'row-social'),
+    section('textos', byGroup('textos').slice(0, 4)),
+  ].join('\n');
+  const empty = `<section class="wrap empty"><h1>Em breve</h1><p>Os conteúdos aparecem aqui assim que a primeira atualização automática rodar.</p></section>`;
   return page({
     path: '/',
     active: '/',
-    body: `${hero}
-${section('podcast', `Episódios · ${showName}`, bySource('podcast').slice(0, 4))}
-${section('instagram', 'Reels', bySource('instagram').slice(0, 6), { cls: 'row-reels' })}
-${section('omelete', 'No Omelete', bySource('omelete').slice(0, 4))}
+    body: `${items.length ? blocks : empty}
 <section class="wrap about-strip">
   <img src="/assets/guilherme-jacobs.jpg" alt="Guilherme Jacobs" width="160" height="160" loading="lazy">
   <div>
@@ -170,20 +171,19 @@ ${section('omelete', 'No Omelete', bySource('omelete').slice(0, 4))}
 }
 
 function archive() {
-  const counts = Object.fromEntries(Object.keys(SOURCES).map((s) => [s, bySource(s).length]));
-  const filters = [['todos', 'Tudo', items.length], ...Object.entries(SOURCES).map(([s, v]) => [s, v.label, counts[s]])]
+  const filters = [['todos', 'Tudo', items.length], ...Object.entries(GROUPS).map(([g, v]) => [g, v.title, byGroup(g).length])]
     .filter(([, , n]) => n > 0)
     .map(([key, label, n]) => `<button type="button" class="chip" data-filter="${key}" aria-pressed="${key === 'todos'}">${label} <span>${n}</span></button>`)
     .join('');
   return page({
     title: 'Arquivo',
-    description: `Todos os reels, episódios de podcast e textos de ${config.name}.`,
+    description: `Todos os podcasts, vídeos e textos de ${config.name}.`,
     path: '/arquivo/',
     active: '/arquivo/',
     body: `<section class="wrap archive">
   <header class="page-head"><h1>Arquivo</h1><p>Tudo o que publiquei, do mais novo ao mais antigo.</p></header>
   ${items.length ? `<div class="filters" role="group" aria-label="Filtrar por tipo">${filters}</div>` : '<p class="empty">Nada por aqui ainda.</p>'}
-  <div class="grid" id="archive-grid">${items.map((i) => card(i)).join('')}</div>
+  <div class="grid" id="archive-grid">${items.map(card).join('')}</div>
   <p class="load"><button type="button" class="button" id="load-more" hidden>Carregar mais</button></p>
 </section>`,
   });

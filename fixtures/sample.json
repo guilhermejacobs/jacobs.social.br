@@ -65,6 +65,14 @@
    "image": "sample/om2.jpg"
   },
   {
+   "id": "iw-0",
+   "source": "indiewire",
+   "title": "Exemplo: texto publicado no IndieWire",
+   "url": "https://www.indiewire.com",
+   "date": "2026-10-24T15:00:00Z",
+   "image": "sample/om1.jpg"
+  },
+  {
    "id": "ig-3",
    "source": "instagram",
    "title": "Exemplo de collab com convidado",

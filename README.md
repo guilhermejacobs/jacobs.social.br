@@ -1,6 +1,6 @@
 # jacobs.social.br
 
-Site pessoal de Guilherme Jacobs. A home reúne Reels do Instagram, episódios do podcast e textos do Omelete. Tem ainda uma página de arquivo com filtros e uma página "Sobre".
+Site pessoal de Guilherme Jacobs. A home tem três blocos: **Podcasts**, **Social** (Reels do Instagram e, no futuro, TikTok) e **No Omelete e além** (textos no Omelete, IndieWire etc.). Tem ainda uma página de arquivo com filtros e uma página "Sobre". O site abre no modo noturno e tem um botão para trocar para o modo claro.
 
 O site é estático e não tem dependências: são só scripts em Node. Ele roda inteiro no GitHub:
 
@@ -36,7 +36,17 @@ Em `data/manual.json`:
 }
 ```
 
-`source` pode ser `instagram`, `podcast` ou `omelete`. `image` é opcional. Pode ser um link ou um arquivo enviado para `public/media/manual/`.
+`source` define a etiqueta e o bloco em que o item aparece:
+
+| `source` | Bloco |
+|---|---|
+| `podcast` | Podcasts |
+| `instagram`, `tiktok` | Social |
+| `omelete`, `indiewire` | No Omelete e além |
+
+Para outro site, use qualquer nome e diga o bloco e a etiqueta. Por exemplo, `"source": "variety", "sourceLabel": "Variety", "group": "textos"`. Os valores de `group` são `podcasts`, `social` ou `textos`.
+
+`image` é opcional. Pode ser um link ou um arquivo enviado para `public/media/manual/`.
 
 ## Configuração (uma vez só)
 
