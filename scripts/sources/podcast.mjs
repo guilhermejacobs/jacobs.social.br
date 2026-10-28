@@ -62,7 +62,8 @@ async function fromRss(config) {
   const xml = await (await get(config.rss)).text();
   const channel = xml.split(/<item[\s>]/i)[0];
   const cover = attr(channel, 'itunes:image', 'href');
-  const show = { name: stripTags(tag(channel, 'title')), url: stripTags(tag(channel, 'link')), image: cover };
+  // The feed's own link points at the producer's site, so prefer the show's Spotify page.
+  const show = { name: stripTags(tag(channel, 'title')), url: config.showUrl || stripTags(tag(channel, 'link')), image: cover };
 
   const items = xmlItems(xml).map((src) => {
     const guid = stripTags(tag(src, 'guid') ?? tag(src, 'title'));

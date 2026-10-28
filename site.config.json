@@ -40,7 +40,8 @@
   },
   "podcast": {
     "spotifyShowId": "7yJkAgNTUU5BqaoshKqlMR",
-    "rss": ""
+    "showUrl": "https://open.spotify.com/show/7yJkAgNTUU5BqaoshKqlMR",
+    "rss": "https://anchor.fm/s/109c2da44/podcast/rss"
   },
   "omelete": {
     "authorUrl": "https://www.omelete.com.br/autores/guilherme-j-jacobs",

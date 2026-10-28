@@ -77,12 +77,11 @@ No painel do Registro.br, abra o domínio, vá em **DNS → Editar zona** (se pe
 
 A propagação pode levar algumas horas.
 
-### 3. Podcast (Spotify)
+### 3. Podcast
 
-Escolha **uma** das opções:
+Já está configurado. O site lê o feed RSS do *De Quinta* no Spotify for Creators (`podcast.rss`), que não precisa de senha. Se um episódio vier sem link, o card aponta para o programa no Spotify (`podcast.showUrl`).
 
-- **API do Spotify (recomendado: os links abrem o episódio no Spotify).** Em developer.spotify.com/dashboard, crie um app (em "Redirect URI", qualquer endereço serve, ex. `https://jacobs.social.br`). Depois, no repositório, vá em **Settings → Secrets and variables → Actions** e crie os secrets `SPOTIFY_CLIENT_ID` e `SPOTIFY_CLIENT_SECRET` com os valores do app.
-- **Feed RSS.** Se você tiver o link do RSS do podcast (fica no painel de quem hospeda o programa, como o Spotify for Creators), coloque-o em `podcast.rss` no `site.config.json`.
+Opcional: se você criar um app em developer.spotify.com/dashboard e salvar `SPOTIFY_CLIENT_ID` e `SPOTIFY_CLIENT_SECRET` nos secrets do repositório, o site passa a usar a API do Spotify, e cada card abre o episódio direto no Spotify.
 
 ### 4. Omelete
 
