@@ -11,7 +11,7 @@ O site é estático e não tem dependências: são só scripts em Node. Ele roda
 
 | O quê | Arquivo |
 |---|---|
-| Bio, links das redes, URL da página de autor no Omelete | `site.config.json` |
+| Bio, links das redes, páginas de autor no Omelete e no IndieWire | `site.config.json` |
 | Foto | `src/assets/guilherme-jacobs.jpg` |
 | Cores e fontes | `src/assets/styles.css` (variáveis no topo) |
 | Adicionar um conteúdo à mão (ex.: um collab que não apareceu) | `data/manual.json` |
@@ -85,7 +85,11 @@ Escolha **uma** das opções:
 
 Confira se `omelete.authorUrl` no `site.config.json` aponta para a sua página de autor. O script lê os links dessa página e só guarda as matérias cujo autor contém "Jacobs" (`omelete.authorMatch`).
 
-### 5. Instagram
+### 5. IndieWire
+
+Não precisa configurar nada. O site lê o feed RSS da sua página de autor (`indiewire.authorUrl`), que só lista textos seus. Se o feed falhar, ele lê a página de autor, do mesmo jeito que faz com o Omelete. Na primeira execução, ele volta pelas páginas mais antigas do feed para montar o arquivo.
+
+### 6. Instagram
 
 A Meta só libera os posts pela API para contas **profissionais** (Criador ou Empresa).
 

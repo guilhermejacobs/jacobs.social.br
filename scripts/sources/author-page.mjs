@@ -1,14 +1,14 @@
 import { get, readJson, writeJson, mergeItems, toIso, truncate, decodeEntities } from '../lib.mjs';
 
-const FILE = 'data/omelete.json';
 const SKIP = /^\/(autor|autores|tag|tags|busca|search|assine|login|cadastro|newsletter|sobre|contato|termos|politica|privacidade|_next|api|static|assets|images|feed)(\/|$)/i;
 
-// Omelete has no public API, so: collect article links from the author page, then read each
+// For sites without a feed: collect article links from the author page, then read each
 // new article's metadata (title, image, date, author). Only articles whose author matches
 // `authorMatch` are kept, which filters out "most read" boxes and other people's articles.
-export async function fetchOmelete(config) {
-  if (!config.authorUrl) return 'pulado: defina "omelete.authorUrl" no site.config.json';
-  const stored = await readJson(FILE, { ignored: [], items: [] });
+export async function fetchAuthorPage(config, { source, prefix }) {
+  if (!config.authorUrl) return `pulado: defina "${source}.authorUrl" no site.config.json`;
+  const file = `data/${source}.json`;
+  const stored = await readJson(file, { ignored: [], items: [] });
   const seen = new Set([...stored.items.map((i) => i.url), ...stored.ignored]);
 
   const html = await (await get(config.authorUrl)).text();
@@ -25,8 +25,8 @@ export async function fetchOmelete(config) {
         continue;
       }
       items.push({
-        id: `om-${new URL(url).pathname.replace(/\W+/g, '-').replace(/^-|-$/g, '')}`,
-        source: 'omelete',
+        id: `${prefix}-${new URL(url).pathname.replace(/\W+/g, '-').replace(/^-|-$/g, '')}`,
+        source,
         title: meta.title,
         description: truncate(meta.description ?? '', 300),
         url,
@@ -35,13 +35,13 @@ export async function fetchOmelete(config) {
         section: meta.section,
       });
     } catch (err) {
-      console.warn(`  omelete: ${err.message}`);
+      console.warn(`  ${source}: ${err.message}`);
     }
   }
 
   const merged = mergeItems(stored.items, items);
   // Remember rejected links so we do not re-download them every hour.
-  await writeJson(FILE, { ignored: [...stored.ignored, ...ignored].slice(-1000), items: merged });
+  await writeJson(file, { ignored: [...stored.ignored, ...ignored].slice(-1000), items: merged });
   return `${links.length} links novos, ${items.length} matérias suas, ${ignored.length} ignorados, ${merged.length} no total`;
 }
 
@@ -69,7 +69,7 @@ function extractArticleLinks(html, base) {
   return [...urls];
 }
 
-function readArticleMeta(html) {
+export function readArticleMeta(html) {
   const meta = {};
   for (const [tag] of html.matchAll(/<meta\b[^>]*>/gi)) {
     const key = tag.match(/\b(?:property|name|itemprop)=["']([^"']+)["']/i)?.[1]?.toLowerCase();

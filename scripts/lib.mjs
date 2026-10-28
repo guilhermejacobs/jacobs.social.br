@@ -93,3 +93,8 @@ export function mergeItems(existing = [], incoming = []) {
   }
   return [...byId.values()].sort((a, b) => (b.date ?? '').localeCompare(a.date ?? ''));
 }
+
+// Minimal RSS helpers: feeds are simple enough that a regex beats pulling in an XML parser.
+export const xmlTag = (src, name) => src.match(new RegExp(`<${name}[^>]*>([\\s\\S]*?)</${name}>`, 'i'))?.[1];
+export const xmlAttr = (src, name, a) => src.match(new RegExp(`<${name}[^>]*\\b${a}="([^"]+)"`, 'i'))?.[1];
+export const xmlItems = (xml) => [...xml.matchAll(/<item[\s>][\s\S]*?<\/item>/gi)].map((m) => m[0]);

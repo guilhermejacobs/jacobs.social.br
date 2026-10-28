@@ -1,13 +1,15 @@
 import { readJson } from './lib.mjs';
 import { fetchInstagram } from './sources/instagram.mjs';
 import { fetchPodcast } from './sources/podcast.mjs';
-import { fetchOmelete } from './sources/omelete.mjs';
+import { fetchAuthorPage } from './sources/author-page.mjs';
+import { fetchIndiewire } from './sources/indiewire.mjs';
 
 const config = await readJson('site.config.json');
 const sources = {
   instagram: () => fetchInstagram(config.instagram),
   podcast: () => fetchPodcast(config.podcast),
-  omelete: () => fetchOmelete(config.omelete),
+  omelete: () => fetchAuthorPage(config.omelete, { source: 'omelete', prefix: 'om' }),
+  indiewire: () => fetchIndiewire(config.indiewire),
 };
 
 // One broken source must not stop the others (or the site build) from updating.

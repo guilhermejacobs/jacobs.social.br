@@ -32,10 +32,11 @@ if (sample) {
   const ig = await readJson('data/instagram.json', { items: [] });
   const pod = await readJson('data/podcast.json', { items: [] });
   const om = await readJson('data/omelete.json', { items: [] });
+  const iw = await readJson('data/indiewire.json', { items: [] });
   const manual = await readJson('data/manual.json', { items: [] });
   show = pod.show;
   const extra = manual.items.map((i) => ({ id: `manual-${i.url}`, ...i, date: new Date(i.date).toISOString() }));
-  items = mergeItems([...ig.items, ...pod.items, ...om.items], extra);
+  items = mergeItems([...ig.items, ...pod.items, ...om.items, ...iw.items], extra);
 }
 items = items.filter((i) => GROUPS[groupOf(i)] && i.url && i.date);
 const byGroup = (g) => items.filter((i) => groupOf(i) === g);

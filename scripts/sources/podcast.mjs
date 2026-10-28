@@ -1,4 +1,4 @@
-import { get, readJson, writeJson, mergeItems, toIso, truncate, stripTags, decodeEntities } from '../lib.mjs';
+import { get, readJson, writeJson, mergeItems, toIso, truncate, stripTags, decodeEntities, xmlTag as tag, xmlAttr as attr, xmlItems } from '../lib.mjs';
 
 const FILE = 'data/podcast.json';
 
@@ -60,14 +60,11 @@ async function fromSpotify(config, stored) {
 
 async function fromRss(config) {
   const xml = await (await get(config.rss)).text();
-  const tag = (src, name) => src.match(new RegExp(`<${name}[^>]*>([\\s\\S]*?)</${name}>`, 'i'))?.[1];
-  const attr = (src, name, a) => src.match(new RegExp(`<${name}[^>]*\\b${a}="([^"]+)"`, 'i'))?.[1];
-
   const channel = xml.split(/<item[\s>]/i)[0];
   const cover = attr(channel, 'itunes:image', 'href');
   const show = { name: stripTags(tag(channel, 'title')), url: stripTags(tag(channel, 'link')), image: cover };
 
-  const items = [...xml.matchAll(/<item[\s>][\s\S]*?<\/item>/gi)].map(([src]) => {
+  const items = xmlItems(xml).map((src) => {
     const guid = stripTags(tag(src, 'guid') ?? tag(src, 'title'));
     return {
       id: `rss-${guid.replace(/[^\w-]+/g, '').slice(-64)}`,

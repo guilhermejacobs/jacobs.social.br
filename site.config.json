@@ -8,11 +8,31 @@
     "Além de apresentar tanto o Palco Thunder quanto o Palco Omelete todo ano na CCXP, ele cobre regularmente o Festival de Cannes e o Oscar."
   ],
   "social": [
-    { "label": "Instagram", "handle": "@gjsix", "url": "https://instagram.com/gjsix" },
-    { "label": "TikTok", "handle": "@theguilhermejacobs", "url": "https://www.tiktok.com/@theguilhermejacobs" },
-    { "label": "X", "handle": "@ghostjacobs", "url": "https://x.com/ghostjacobs" },
-    { "label": "Letterboxd", "handle": "guilhermej", "url": "https://letterboxd.com/guilhermej" },
-    { "label": "Podcast", "handle": "no Spotify", "url": "https://open.spotify.com/show/7yJkAgNTUU5BqaoshKqlMR" }
+    {
+      "label": "Instagram",
+      "handle": "@gjsix",
+      "url": "https://instagram.com/gjsix"
+    },
+    {
+      "label": "TikTok",
+      "handle": "@theguilhermejacobs",
+      "url": "https://www.tiktok.com/@theguilhermejacobs"
+    },
+    {
+      "label": "X",
+      "handle": "@ghostjacobs",
+      "url": "https://x.com/ghostjacobs"
+    },
+    {
+      "label": "Letterboxd",
+      "handle": "guilhermej",
+      "url": "https://letterboxd.com/guilhermej"
+    },
+    {
+      "label": "Podcast",
+      "handle": "no Spotify",
+      "url": "https://open.spotify.com/show/7yJkAgNTUU5BqaoshKqlMR"
+    }
   ],
   "instagram": {
     "apiVersion": "v23.0",
@@ -24,6 +44,11 @@
   },
   "omelete": {
     "authorUrl": "https://www.omelete.com.br/autores/guilherme-j-jacobs",
+    "authorMatch": "Jacobs",
+    "maxNewPerRun": 30
+  },
+  "indiewire": {
+    "authorUrl": "https://www.indiewire.com/author/guilherme-jacobs/",
     "authorMatch": "Jacobs",
     "maxNewPerRun": 30
   }
