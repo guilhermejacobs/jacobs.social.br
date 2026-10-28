@@ -78,6 +78,26 @@ function socialList(cls = '') {
     .join('')}</ul>`;
 }
 
+// Simple line icons for the header, picked by the link's domain.
+const ICONS = {
+  'instagram.com': '<rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="1" class="fill"/>',
+  'tiktok.com': '<path class="fill" d="M16.2 3c.3 2.3 1.7 3.9 3.8 4.2v3.1a7 7 0 0 1-3.8-1.2v6.1a5.6 5.6 0 1 1-5.6-5.6l.8.1v3.2a2.4 2.4 0 1 0 1.6 2.3V3h3.2z"/>',
+  'x.com': '<path d="M4.5 4h4.3l10.7 16h-4.3z" class="fill"/><path d="M19.2 4l-6.1 7M10.9 13 4.8 20"/>',
+  'letterboxd.com': '<circle cx="5.5" cy="12" r="3.4" class="fill"/><circle cx="12" cy="12" r="3.4" class="fill"/><circle cx="18.5" cy="12" r="3.4" class="fill"/>',
+  'spotify.com': '<circle cx="12" cy="12" r="9.5"/><path d="M7 9.4c3.4-1 7.2-.7 10.2 1M7.6 12.6c2.8-.8 5.8-.5 8.2.9M8.3 15.6c2.2-.6 4.5-.4 6.4.7"/>',
+};
+const iconFor = (url) => Object.entries(ICONS).find(([host]) => new URL(url).hostname.endsWith(host))?.[1];
+
+function socialIcons() {
+  return `<ul class="social-icons" aria-label="Redes sociais">${config.social
+    .map((s) => {
+      const icon = iconFor(s.url);
+      const inner = icon ? `<svg viewBox="0 0 24 24" aria-hidden="true">${icon}</svg>` : esc(s.label);
+      return `<li><a href="${esc(s.url)}" ${ext} aria-label="${esc(s.label)}" title="${esc(s.label)}">${inner}</a></li>`;
+    })
+    .join('')}</ul>`;
+}
+
 function page({ title, description = config.description, path: pagePath = '/', body, active }) {
   const nav = [
     ['/', 'Início'],
@@ -113,6 +133,7 @@ try { if (localStorage.getItem('theme') === 'light') document.documentElement.da
 <header class="masthead">
   <div class="wrap masthead-inner">
     <a class="wordmark" href="/">Guilherme <span>Jacobs</span></a>
+    ${socialIcons()}
     <div class="masthead-right">
       <nav class="nav" aria-label="Principal">${nav
         .map(([href, label]) => `<a href="${href}"${active === href ? ' aria-current="page"' : ''}>${label}</a>`)

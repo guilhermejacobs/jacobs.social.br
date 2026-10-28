@@ -60,5 +60,7 @@
     "authorMatch": "Jacobs",
     "maxNewPerRun": 30
   },
-  "hide": []
+  "hide": [
+    "https://www.instagram.com/reel/DQsCVsQDelu/"
+  ]
 }
