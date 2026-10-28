@@ -2,7 +2,13 @@ import fs from 'node:fs/promises';
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36';
 const out = {};
 const html = await (await fetch('https://open.spotify.com/show/7yJkAgNTUU5BqaoshKqlMR', { headers: { 'user-agent': UA } })).text();
+out.status = html.length;
 out.ogTitle = html.match(/property="og:title" content="([^"]+)"/)?.[1];
+try {
+  const o = await (await fetch('https://open.spotify.com/oembed?url=https://open.spotify.com/show/7yJkAgNTUU5BqaoshKqlMR')).json();
+  out.oembed = { title: o.title, provider: o.provider_name };
+  out.ogTitle ??= o.title;
+} catch (e) { out.oembedError = e.message; }
 out.ogDesc = html.match(/property="og:description" content="([^"]+)"/)?.[1];
 out.rssInPage = [...new Set(html.match(/https?:\/\/[^"'\s]+(rss|feed)[^"'\s]*/gi) ?? [])].slice(0, 10);
 if (out.ogTitle) {
