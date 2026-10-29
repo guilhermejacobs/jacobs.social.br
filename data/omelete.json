@@ -11,8 +11,8 @@
     "https://www.omelete.com.br/ccxp/marvel-day-na-ccxp26-evento-tera-dia-inteiro-dedicado-ao-universo-de-herois"
   ],
   "pending": [],
-  "cursor": 1475335001,
-  "scrollDone": false,
+  "cursor": 1401764400,
+  "scrollDone": true,
   "items": [
     {
       "id": "om-filmes-criticas-naza-usa-cinema-para-construir-o-contexto-assustador-dos-ataques-a-gaza",
@@ -3786,6 +3786,83 @@
       "image": "https://cdn.ome.lt/OLCKjV60jYc0XHKPjiQ9-t3aAIo=/1200x630/smart/filters:format(webp)/extras/conteudos/3pc_capa.jpg",
       "section": "Séries e TV",
       "type": "article"
+    },
+    {
+      "id": "om-tim-burton-o-lar-das-criancas-peculiares-e-tudo-menos-peculiar",
+      "source": "omelete",
+      "title": "O Lar das Crianças Peculiares é tudo, menos peculiar",
+      "description": "Adaptação de O Lar das Crianças Peculiares dirigida por Tim Burton perde muito da magia presente no livro",
+      "url": "https://www.omelete.com.br/tim-burton/o-lar-das-criancas-peculiares-e-tudo-menos-peculiar",
+      "date": "2016-09-26T18:18:59.000Z",
+      "image": "https://cdn.ome.lt/TwxmNjCspYDEm3eV0RxroduYmtc=/1200x630/smart/filters:format(webp)/extras/conteudos/peregrins-gallery10.jpg",
+      "section": "Filmes",
+      "type": "article"
+    },
+    {
+      "id": "om-series-tv-criticas-the-night-of-critica",
+      "source": "omelete",
+      "title": "The Night Of | Crítica",
+      "description": "Criada por veterano de The Wire, The Night Of é uma das melhores minisséries do ano",
+      "url": "https://www.omelete.com.br/series-tv/criticas/the-night-of-critica",
+      "date": "2016-08-29T16:20:23.000Z",
+      "image": "https://cdn.ome.lt/SdtTZ_Tw9l0zjOlvBrgrSKEA0zU=/1200x630/smart/filters:format(webp)/extras/conteudos/The_Night_Of_Capa.jpg",
+      "section": "Séries e TV",
+      "type": "review"
+    },
+    {
+      "id": "om-series-tv-the-night-of-e-a-arma-secreta-da-hbo-para-2016",
+      "source": "omelete",
+      "title": "The Night Of é a arma secreta da HBO para 2016",
+      "description": "Assistimos ao primeiro episódio da minissérie e mal podemos esperar pra ver mais",
+      "url": "https://www.omelete.com.br/series-tv/the-night-of-e-a-arma-secreta-da-hbo-para-2016",
+      "date": "2016-07-10T16:01:53.000Z",
+      "image": "https://cdn.ome.lt/ZgLLChXJfM9LuEs-RdKoZMIwhlo=/1200x630/smart/filters:format(webp)/extras/conteudos/The_Night_of_Grande.jpg",
+      "section": "Séries e TV",
+      "type": "article"
+    },
+    {
+      "id": "om-series-tv-criticas-constantine-1a-temporada-critica",
+      "source": "omelete",
+      "title": "Constantine - 1ª Temporada | Crítica",
+      "description": "Com acertos e erros, John Constantine chega à TV",
+      "url": "https://www.omelete.com.br/series-tv/criticas/constantine-1a-temporada-critica",
+      "date": "2015-02-19T19:18:31.000Z",
+      "image": "https://cdn.ome.lt/w5qc9FlWVWE4t2Ss_evYBcWPnHw=/1200x630/smart/filters:format(webp)/extras/conteudos/constantine.jpg",
+      "section": "Séries e TV",
+      "type": "review"
+    },
+    {
+      "id": "om-series-tv-criticas-falling-skies-4-temporada-critica",
+      "source": "omelete",
+      "title": "Falling Skies - 4ª Temporada | Crítica",
+      "description": "Série abraça sua natureza de ficção científica em seu penúltimo ano",
+      "url": "https://www.omelete.com.br/series-tv/criticas/falling-skies-4-temporada-critica",
+      "date": "2014-09-03T23:14:28.000Z",
+      "image": "https://cdn.ome.lt/nMf-Uhb8JHrhbF7jmqJ6V_NwEOc=/1200x630/smart/filters:format(webp)/extras/conteudos/conteudo_90407_1.jpg",
+      "section": "Séries e TV",
+      "type": "review"
+    },
+    {
+      "id": "om-series-tv-criticas-halt-and-catch-fire-1-temporada-critica",
+      "source": "omelete",
+      "title": "Halt and Catch Fire - 1ª Temporada | Crítica",
+      "description": "Série tecnológica de época mostra a luta entre a criatividade e a funcionalidade durante a criação dos computadores",
+      "url": "https://www.omelete.com.br/series-tv/criticas/halt-and-catch-fire-1-temporada-critica",
+      "date": "2014-08-13T22:05:52.000Z",
+      "image": "https://cdn.ome.lt/qD3G1ouPlqOy1zbg0Og7ERJBm0s=/1200x630/smart/filters:format(webp)/extras/conteudos/conteudo_89852_1.jpg",
+      "section": "Séries e TV",
+      "type": "review"
+    },
+    {
+      "id": "om-series-tv-criticas-da-vincis-demons-2-temporada-critica",
+      "source": "omelete",
+      "title": "Da Vinci's Demons - 2ª Temporada | Crítica",
+      "description": "Apesar da lenta preparação, o resultado é satisfatório",
+      "url": "https://www.omelete.com.br/series-tv/criticas/da-vincis-demons-2-temporada-critica",
+      "date": "2014-06-03T03:00:00.000Z",
+      "image": "https://cdn.ome.lt/KSMtxSEvAkaikyVQjHLo5yHPjmI=/1200x630/smart/filters:format(webp)/extras/conteudos/conteudo_87795_7.jpg",
+      "section": "Séries e TV",
+      "type": "review"
     }
   ]
 }
